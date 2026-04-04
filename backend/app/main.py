@@ -120,6 +120,12 @@ def infer_namesake(text: str | None) -> str | None:
 
 @app.get("/v1/card", response_model=CardResponse)
 def card(lat: float, lon: float, acc: float = 25.0):
+    if not (-90 <= lat <= 90):
+        raise HTTPException(status_code=400, detail="Invalid latitude — must be between -90 and 90")
+    if not (-180 <= lon <= 180):
+        raise HTTPException(status_code=400, detail="Invalid longitude — must be between -180 and 180")
+    acc = max(5.0, min(acc, 500.0))  # clamp accuracy to a sane range
+
     cache_key = f"card:{encode_geohash(lat, lon, precision=CARD_CACHE_PRECISION)}"
     cached = CARD_CACHE.get(cache_key)
     if cached is not None:

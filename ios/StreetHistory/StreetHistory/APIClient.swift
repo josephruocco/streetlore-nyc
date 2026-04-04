@@ -17,16 +17,22 @@ final class APIClient {
     }
 
     func fetchCard(lat: Double, lon: Double, acc: Double) async throws -> CardResponse {
-        var comps = URLComponents(string: "\(baseURL)/v1/card")!
+        guard var comps = URLComponents(string: "\(baseURL)/v1/card") else {
+            throw URLError(.badURL)
+        }
         comps.queryItems = [
             .init(name: "lat", value: "\(lat)"),
             .init(name: "lon", value: "\(lon)"),
             .init(name: "acc", value: "\(acc)")
         ]
-        let url = comps.url!
+        guard let url = comps.url else {
+            throw URLError(.badURL)
+        }
 
         let (data, resp) = try await session.data(from: url)
-        let http = resp as! HTTPURLResponse
+        guard let http = resp as? HTTPURLResponse else {
+            throw URLError(.badServerResponse)
+        }
         guard (200..<300).contains(http.statusCode) else {
             throw URLError(.badServerResponse)
         }

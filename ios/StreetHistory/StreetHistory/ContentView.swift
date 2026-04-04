@@ -727,7 +727,7 @@ private struct HistoryImageView: View {
         guard let wikipediaSourceURL,
               let url = URL(string: wikipediaSourceURL),
               let host = url.host,
-              host.contains("wikipedia.org") else { return nil }
+              (host == "wikipedia.org" || host.hasSuffix(".wikipedia.org")) else { return nil }
 
         let title = url.lastPathComponent.removingPercentEncoding ?? url.lastPathComponent
         guard !title.isEmpty else { return nil }

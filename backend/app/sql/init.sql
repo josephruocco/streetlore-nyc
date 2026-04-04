@@ -46,5 +46,5 @@ CREATE TABLE IF NOT EXISTS fact (
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
 
-CREATE INDEX IF NOT EXISTS idx_fact_key
+CREATE UNIQUE INDEX IF NOT EXISTS idx_fact_key
   ON fact (key_type, key_value);

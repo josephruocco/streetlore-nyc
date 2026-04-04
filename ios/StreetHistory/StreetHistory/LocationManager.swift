@@ -8,6 +8,7 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
 
     @Published var location: CLLocation?
     @Published var status: CLAuthorizationStatus = .notDetermined
+    @Published var locationError: Error?
 
     // Emits only when you move meaningfully (movement gating)
     @Published var significantLocation: CLLocation?
@@ -50,6 +51,6 @@ final class LocationManager: NSObject, ObservableObject, CLLocationManagerDelega
     }
 
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print("Location error:", error)
+        locationError = error
     }
 }
