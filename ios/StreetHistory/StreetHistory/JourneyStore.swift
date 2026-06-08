@@ -1,6 +1,7 @@
 import Foundation
 import CoreLocation
 import Combine
+import SwiftUI
 import UserNotifications
 
 struct StreetVisit: Codable, Identifiable {
@@ -54,9 +55,11 @@ struct WalkSession: Codable, Identifiable {
 final class JourneyStore: ObservableObject {
     @Published var currentSession: WalkSession?
     @Published var sessions: [WalkSession] = []
+    @Published var favorites: [StreetVisit] = []
     @Published var notificationsAuthorized = false
 
     private let sessionsKey = "walk_sessions_v1"
+    private let favoritesKey = "favorite_streets_v1"
     private let lastNotifiedStreetKey = "last_notified_street_v1"
     private let encoder = JSONEncoder()
     private let decoder = JSONDecoder()
@@ -68,6 +71,11 @@ final class JourneyStore: ObservableObject {
         if let data = UserDefaults.standard.data(forKey: sessionsKey),
            let stored = try? decoder.decode([WalkSession].self, from: data) {
             sessions = stored
+        }
+
+        if let data = UserDefaults.standard.data(forKey: favoritesKey),
+           let stored = try? decoder.decode([StreetVisit].self, from: data) {
+            favorites = stored
         }
 
         Task {
@@ -121,6 +129,41 @@ final class JourneyStore: ObservableObject {
     func clearHistory() {
         sessions = []
         UserDefaults.standard.removeObject(forKey: sessionsKey)
+    }
+
+    func isFavorite(_ streetName: String) -> Bool {
+        favorites.contains { $0.streetName.lowercased() == streetName.lowercased() }
+    }
+
+    func toggleFavorite(card: CardResponse, location: CLLocation) {
+        let name = card.canonical_street ?? ""
+        if let idx = favorites.firstIndex(where: { $0.streetName.lowercased() == name.lowercased() }) {
+            favorites.remove(at: idx)
+        } else {
+            let visit = StreetVisit(
+                streetName: name,
+                crossStreet: card.cross_street,
+                neighborhood: card.neighborhood,
+                borough: card.borough,
+                factSnippet: card.did_you_know,
+                timestamp: Date(),
+                latitude: location.coordinate.latitude,
+                longitude: location.coordinate.longitude
+            )
+            favorites.append(visit)
+        }
+        persistFavorites()
+    }
+
+    func removeFavorite(at offsets: IndexSet) {
+        favorites.remove(atOffsets: offsets)
+        persistFavorites()
+    }
+
+    private func persistFavorites() {
+        if let data = try? encoder.encode(favorites) {
+            UserDefaults.standard.set(data, forKey: favoritesKey)
+        }
     }
 
     private func persistSessions() {

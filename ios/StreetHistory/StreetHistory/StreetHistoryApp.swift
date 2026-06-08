@@ -14,11 +14,12 @@ final class AppNotificationDelegate: NSObject, UNUserNotificationCenterDelegate 
 @main
 struct StreetHistoryApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    @StateObject private var journeyStore = JourneyStore()
 
     var body: some Scene {
         WindowGroup {
             TabView {
-                ContentView()
+                ContentView(journeyStore: journeyStore)
                     .tabItem {
                         Label("Street", systemImage: "text.book.closed")
                     }
@@ -26,6 +27,11 @@ struct StreetHistoryApp: App {
                 FactMapView()
                     .tabItem {
                         Label("Map", systemImage: "map")
+                    }
+
+                FavoritesView(journeyStore: journeyStore)
+                    .tabItem {
+                        Label("Favorites", systemImage: "heart")
                     }
             }
             .tint(Color(red: 0.40, green: 0.24, blue: 0.14))

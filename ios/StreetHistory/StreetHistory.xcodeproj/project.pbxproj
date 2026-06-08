@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		D97D81A52F3BE49800933D15 /* StreetHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB2D96F6728485692956FBF /* FactMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactMapView.swift; sourceTree = "<group>"; };
+		E0F87069B14144FAA798835E /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */

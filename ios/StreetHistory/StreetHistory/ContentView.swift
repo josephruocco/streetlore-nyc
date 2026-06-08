@@ -5,7 +5,7 @@ import Combine
 struct ContentView: View {
     @StateObject private var lm = LocationManager()
     @StateObject private var vm = CardViewModel()
-    @StateObject private var journeyStore = JourneyStore()
+    @ObservedObject var journeyStore: JourneyStore
 
     @State private var fetchTask: Task<Void, Never>?
     @State private var isUpdating = false
@@ -33,6 +33,7 @@ struct ContentView: View {
                 VStack(alignment: .leading, spacing: 18) {
                     statusBar
                     mainCard
+                    journeyCards
                 }
                 .padding(.horizontal, 18)
                 .padding(.top, 18)
@@ -212,6 +213,57 @@ struct ContentView: View {
         .animation(.easeInOut(duration: 0.25), value: vm.card?.canonical_street ?? "")
     }
 
+    @ViewBuilder
+    private var journeyCards: some View {
+        if journeyStore.isJourneyActive,
+           let session = journeyStore.currentSession,
+           session.visits.count > 1 {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    Image(systemName: "figure.walk")
+                        .font(.caption.weight(.bold))
+                    Text("This walk — \(session.visits.count) streets")
+                        .font(.caption.weight(.bold))
+                    Spacer()
+                }
+                .foregroundStyle(Color(red: 0.40, green: 0.24, blue: 0.14))
+
+                ForEach(session.visits.dropLast().reversed()) { visit in
+                    VStack(alignment: .leading, spacing: 6) {
+                        Text(visit.streetName)
+                            .font(.subheadline.weight(.bold))
+                            .foregroundStyle(Color.black.opacity(0.88))
+
+                        if let cross = visit.crossStreet, !cross.isEmpty {
+                            Text("near \(cross)")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+
+                        if let fact = visit.factSnippet, !fact.isEmpty,
+                           !fact.contains("still being researched") {
+                            Text(fact)
+                                .font(.caption)
+                                .foregroundStyle(Color.black.opacity(0.7))
+                                .lineLimit(2)
+                                .lineSpacing(2)
+                        }
+                    }
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(
+                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                            .fill(Color(red: 0.985, green: 0.975, blue: 0.95))
+                    )
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                            .stroke(Color.black.opacity(0.06), lineWidth: 1)
+                    )
+                }
+            }
+        }
+    }
+
     private func heroSection(_ card: CardResponse) -> some View {
         VStack(alignment: .leading, spacing: 14) {
             let hasHeroImage = historyImageURL(card) != nil || historyImageSourceURL(card) != nil
@@ -261,10 +313,29 @@ struct ContentView: View {
                 }
             }
 
-            Text(card.canonical_street ?? "Unknown street")
-                .font(.system(size: 34, weight: .black, design: .rounded))
-                .foregroundStyle(Color.black.opacity(0.94))
-                .fixedSize(horizontal: false, vertical: true)
+            HStack(alignment: .top) {
+                Text(card.canonical_street ?? "Unknown street")
+                    .font(.system(size: 34, weight: .black, design: .rounded))
+                    .foregroundStyle(Color.black.opacity(0.94))
+                    .fixedSize(horizontal: false, vertical: true)
+
+                Spacer()
+
+                if let streetName = card.canonical_street, !streetName.isEmpty {
+                    Button {
+                        if let loc = lm.significantLocation {
+                            journeyStore.toggleFavorite(card: card, location: loc)
+                        }
+                    } label: {
+                        Image(systemName: journeyStore.isFavorite(streetName) ? "heart.fill" : "heart")
+                            .font(.title2.weight(.semibold))
+                            .foregroundStyle(journeyStore.isFavorite(streetName)
+                                ? Color(red: 0.75, green: 0.22, blue: 0.17)
+                                : Color.black.opacity(0.3))
+                    }
+                    .buttonStyle(.plain)
+                }
+            }
 
             if let cross = card.cross_street, !cross.isEmpty {
                 labelChip(title: "Crossing", value: cross)
