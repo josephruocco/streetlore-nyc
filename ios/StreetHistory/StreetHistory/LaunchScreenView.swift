@@ -2,15 +2,14 @@ import SwiftUI
 
 struct LaunchScreenView: View {
     var body: some View {
-        ZStack {
-            Color.white
-                .ignoresSafeArea()
-
-            Image("AppLogo")
+        GeometryReader { proxy in
+            Image("LaunchImage")
                 .resizable()
-                .scaledToFit()
-                .frame(width: 160, height: 160)
-                .clipShape(RoundedRectangle(cornerRadius: 32, style: .continuous))
+                .scaledToFill()
+                .frame(width: proxy.size.width, height: proxy.size.height)
+                .clipped()
         }
+        .ignoresSafeArea()
+        .background(Color.black)
     }
 }
