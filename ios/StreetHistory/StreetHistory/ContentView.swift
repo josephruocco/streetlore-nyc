@@ -9,7 +9,6 @@ struct ContentView: View {
 
     @State private var fetchTask: Task<Void, Never>?
     @State private var isUpdating = false
-    @State private var showJourneyPrompt = false
     @State private var showHistory = false
     @State private var showStreetContext = false
     @State private var showExploreBrowser = false
@@ -53,9 +52,6 @@ struct ContentView: View {
                 if let card = vm.card {
                     journeyStore.record(card: card, location: loc)
                 }
-                if !journeyStore.isJourneyActive && !showJourneyPrompt {
-                    showJourneyPrompt = true
-                }
             }
         }
         .onChange(of: lm.status) { _, _ in
@@ -67,16 +63,7 @@ struct ContentView: View {
             if isAuthorized {
                 lm.requestPermissionAndStart()
             }
-        }
-        .alert("Start a journey?", isPresented: $showJourneyPrompt) {
-            Button("Not now", role: .cancel) {}
-            Button("Start") {
-                Task {
-                    await journeyStore.startJourney()
-                }
-            }
-        } message: {
-            Text("If you start a journey, the app will log the named streets you visit and notify you when you reach a new one.")
+            journeyStore.closeStaleSession()
         }
         .sheet(isPresented: $showHistory) {
             JourneyHistoryView(journeyStore: journeyStore)
@@ -132,15 +119,10 @@ struct ContentView: View {
                         .foregroundStyle(Color.black.opacity(0.72))
                 }
 
-                if journeyStore.isJourneyActive, let session = journeyStore.currentSession {
-                    Menu {
-                        Button("Stop journey", role: .destructive) {
-                            journeyStore.stopJourney()
-                        }
-                        Button("Journey history") {
-                            showHistory = true
-                        }
-                    } label: {
+                Button {
+                    showHistory = true
+                } label: {
+                    if let session = journeyStore.currentSession, session.visits.count > 1 {
                         HStack(spacing: 8) {
                             Image(systemName: "figure.walk")
                                 .font(.caption.weight(.bold))
@@ -151,18 +133,7 @@ struct ContentView: View {
                         .padding(.vertical, 8)
                         .background(Color.black.opacity(0.82), in: Capsule())
                         .foregroundStyle(.white)
-                    }
-                } else {
-                    Menu {
-                        Button("Start journey") {
-                            Task {
-                                await journeyStore.startJourney()
-                            }
-                        }
-                        Button("Journey history") {
-                            showHistory = true
-                        }
-                    } label: {
+                    } else {
                         Image(systemName: "figure.walk.circle")
                             .font(.headline)
                             .foregroundStyle(Color.black.opacity(0.72))

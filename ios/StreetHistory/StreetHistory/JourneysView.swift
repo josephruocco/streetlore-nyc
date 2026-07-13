@@ -187,20 +187,13 @@ struct JourneysView: View {
 
     @ViewBuilder
     private var journeySection: some View {
-        if journeyStore.isJourneyActive, let session = journeyStore.currentSession {
-            Section("Current walk") {
-                ForEach(session.visits.reversed()) { visit in visitRow(visit) }
-                Button("Stop journey", role: .destructive) { journeyStore.stopJourney() }
-            }
-        } else {
+        if let session = journeyStore.currentSession, !session.visits.isEmpty {
             Section {
-                Button {
-                    Task { await journeyStore.startJourney() }
-                } label: {
-                    Label("Start a journey", systemImage: "figure.walk")
-                }
+                ForEach(session.visits.reversed()) { visit in visitRow(visit) }
+            } header: {
+                Text("Current walk")
             } footer: {
-                Text("A journey logs each street of one walk as its own trip.")
+                Text("Journeys record automatically as you walk. A new one starts after a break.")
             }
         }
     }
@@ -222,6 +215,14 @@ struct JourneysView: View {
 
     private func visitRow(_ visit: StreetVisit) -> some View {
         VStack(alignment: .leading, spacing: 6) {
+            if let crossing = visit.boroughCrossing {
+                Text(crossing)
+                    .font(.caption.weight(.bold))
+                    .foregroundStyle(green)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 5)
+                    .background(green.opacity(0.12), in: Capsule())
+            }
             Text(visit.streetName).font(.headline)
             Text(dateFormatter.string(from: visit.timestamp))
                 .font(.caption).foregroundStyle(.secondary)
