@@ -195,11 +195,11 @@ struct ContentView: View {
                 }
                 .padding(22)
                 .background(
-                    RoundedRectangle(cornerRadius: 26, style: .continuous)
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
                         .fill(Color(red: 0.985, green: 0.975, blue: 0.95))
                 )
                 .overlay(
-                    RoundedRectangle(cornerRadius: 26, style: .continuous)
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
                         .stroke(Color.black.opacity(0.08), lineWidth: 1)
                 )
                 .shadow(color: Color.black.opacity(0.08), radius: 12, x: 0, y: 6)
@@ -263,11 +263,11 @@ struct ContentView: View {
                     .padding(14)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .background(
-                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
                             .fill(Color(red: 0.985, green: 0.975, blue: 0.95))
                     )
                     .overlay(
-                        RoundedRectangle(cornerRadius: 16, style: .continuous)
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
                             .stroke(Color.black.opacity(0.06), lineWidth: 1)
                     )
                 }
@@ -285,9 +285,9 @@ struct ContentView: View {
                     wikipediaSourceURL: historyImageSourceURL(card)
                 )
                 .frame(height: 220)
-                .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
                 .overlay(
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
                         .stroke(Color.black.opacity(0.08), lineWidth: 1)
                 )
             }
@@ -453,7 +453,7 @@ struct ContentView: View {
                             .foregroundStyle(.secondary)
                     }
                     .padding(14)
-                    .background(Color(red: 0.94, green: 0.92, blue: 0.87), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    .background(Color(red: 0.94, green: 0.92, blue: 0.87), in: RoundedRectangle(cornerRadius: 10, style: .continuous))
                 }
                 .buttonStyle(.plain)
             }
@@ -461,10 +461,10 @@ struct ContentView: View {
         .padding(20)
         .background(
             Color(red: 0.95, green: 0.92, blue: 0.84),
-            in: RoundedRectangle(cornerRadius: 22, style: .continuous)
+            in: RoundedRectangle(cornerRadius: 12, style: .continuous)
         )
         .overlay(
-            RoundedRectangle(cornerRadius: 22, style: .continuous)
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
                 .stroke(Color.black.opacity(0.06), lineWidth: 1)
         )
     }
@@ -498,11 +498,11 @@ struct ContentView: View {
         .padding(22)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
                 .fill(Color.white.opacity(0.90))
         )
         .overlay(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
+            RoundedRectangle(cornerRadius: 12, style: .continuous)
                 .stroke(Color.black.opacity(0.06), lineWidth: 1)
         )
     }
@@ -633,7 +633,7 @@ struct ContentView: View {
 
     private var historyImageFallback: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
                 .fill(Color.black.opacity(0.05))
             Image(systemName: "photo")
                 .font(.title2.weight(.semibold))
@@ -800,7 +800,7 @@ private struct HistoryImageView: View {
                 }
             } else if wikipediaSummaryURL != nil && !hasAttemptedResolution {
                 ZStack {
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .fill(Color.black.opacity(0.05))
                     ProgressView()
                 }
@@ -836,7 +836,7 @@ private struct HistoryImageView: View {
                 historyImageFallback
             case .empty:
                 ZStack {
-                    RoundedRectangle(cornerRadius: 18, style: .continuous)
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .fill(Color.black.opacity(0.05))
                     ProgressView()
                 }
@@ -865,7 +865,7 @@ private struct HistoryImageView: View {
 
     private var historyImageFallback: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 18, style: .continuous)
+            RoundedRectangle(cornerRadius: 10, style: .continuous)
                 .fill(Color.black.opacity(0.05))
             Image(systemName: "photo")
                 .font(.title2.weight(.semibold))

@@ -148,15 +148,31 @@ SELECT
   f.source_label,
   f.source_url,
   f.confidence,
+  s.borough,
+  n.name AS neighborhood,
+  -- ponytail: intrinsic rarity, not crowd data. Courts/lanes/walks and very
+  -- short segments are the genuinely obscure streets; upgrade to real
+  -- exploration counts if accounts ever exist.
+  CASE
+    WHEN s.primary_name ~* '(lane|court|walk|alley|mews|row|slip)$' THEN 'rare'
+    WHEN ST_Length(s.geom::geography) < 350 THEN 'uncommon'
+    ELSE 'common'
+  END AS rarity,
   ST_Y(ST_Centroid(s.geom)) AS lat,
   ST_X(ST_Centroid(s.geom)) AS lon
 FROM fact f
 JOIN LATERAL (
-  SELECT geom
+  SELECT geom, borough, primary_name
   FROM street_segment
   WHERE LOWER(BTRIM(primary_name)) = LOWER(BTRIM(f.key_value))
   LIMIT 1
 ) s ON true
+LEFT JOIN LATERAL (
+  SELECT name
+  FROM neighborhood
+  WHERE ST_Contains(geom, ST_Centroid(s.geom))
+  LIMIT 1
+) n ON true
 WHERE f.key_type = 'street_name'
   AND f.confidence >= :min_confidence
 ORDER BY f.key_value;

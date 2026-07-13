@@ -30,6 +30,9 @@ class FactMapItem(BaseModel):
     confidence: float
     lat: float
     lon: float
+    borough: Optional[str] = None
+    neighborhood: Optional[str] = None
+    rarity: str = "common"
 
 
 class CardResponse(BaseModel):

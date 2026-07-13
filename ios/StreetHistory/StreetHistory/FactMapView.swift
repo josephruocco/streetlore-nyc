@@ -12,6 +12,9 @@ struct FactMapItem: Codable, Identifiable, Hashable {
     let confidence: Double
     let lat: Double
     let lon: Double
+    let borough: String?
+    let neighborhood: String?
+    let rarity: String?
 
     var coordinate: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: lat, longitude: lon)
