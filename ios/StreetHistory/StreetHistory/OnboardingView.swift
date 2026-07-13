@@ -31,7 +31,7 @@ struct OnboardingView: View {
         Page(
             icon: "figure.walk",
             title: "Journeys",
-            text: "Start a journey to log every street of a walk as one trip. The app counts every street you ever explore, and can ping you the first time you set foot on a new one."
+            text: "Just walk. The app records your journeys automatically, counts every street you ever explore, and can ping you the first time you set foot on a new one."
         ),
         Page(
             icon: "gearshape.fill",

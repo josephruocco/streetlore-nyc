@@ -187,20 +187,13 @@ struct JourneysView: View {
 
     @ViewBuilder
     private var journeySection: some View {
-        if journeyStore.isJourneyActive, let session = journeyStore.currentSession {
-            Section("Current walk") {
-                ForEach(session.visits.reversed()) { visit in visitRow(visit) }
-                Button("Stop journey", role: .destructive) { journeyStore.stopJourney() }
-            }
-        } else {
+        if let session = journeyStore.currentSession, !session.visits.isEmpty {
             Section {
-                Button {
-                    Task { await journeyStore.startJourney() }
-                } label: {
-                    Label("Start a journey", systemImage: "figure.walk")
-                }
+                ForEach(session.visits.reversed()) { visit in visitRow(visit) }
+            } header: {
+                Text("Current walk")
             } footer: {
-                Text("A journey logs each street of one walk as its own trip.")
+                Text("Journeys record automatically as you walk. A new one starts after a break.")
             }
         }
     }

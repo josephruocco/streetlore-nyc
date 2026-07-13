@@ -66,6 +66,7 @@ final class JourneyStore: ObservableObject {
     var exploredStreets: Set<String> { Set(firstSeen.keys) }
 
     private let sessionsKey = "walk_sessions_v1"
+    private let currentSessionKey = "walk_current_session_v1"
     private let favoritesKey = "favorite_streets_v1"
     private let lastNotifiedStreetKey = "last_notified_street_v1"
     private let exploredKey = "explored_streets_v1"
@@ -80,6 +81,11 @@ final class JourneyStore: ObservableObject {
         if let data = UserDefaults.standard.data(forKey: sessionsKey),
            let stored = try? decoder.decode([WalkSession].self, from: data) {
             sessions = stored
+        }
+
+        if let data = UserDefaults.standard.data(forKey: currentSessionKey),
+           let stored = try? decoder.decode(WalkSession.self, from: data) {
+            currentSession = stored
         }
 
         if let data = UserDefaults.standard.data(forKey: favoritesKey),
@@ -112,21 +118,32 @@ final class JourneyStore: ObservableObject {
         }
     }
 
+    /// A new named street after this much idle time starts a fresh journey.
+    private let sessionGap: TimeInterval = 45 * 60
+
     var isJourneyActive: Bool {
         currentSession != nil
     }
 
-    func startJourney() async {
-        await requestNotificationPermissionIfNeeded()
-        currentSession = WalkSession(startedAt: Date())
+    /// Closes the live auto journey into history if it's gone stale. Called on
+    /// launch and when the app returns to the foreground so a walk from
+    /// yesterday doesn't stay "current".
+    func closeStaleSession() {
+        guard let session = currentSession, let last = session.visits.last else { return }
+        if Date().timeIntervalSince(last.timestamp) > sessionGap {
+            archiveCurrentSession()
+        }
     }
 
-    func stopJourney() {
+    private func archiveCurrentSession() {
         guard var session = currentSession else { return }
-        session.endedAt = Date()
-        sessions.insert(session, at: 0)
+        session.endedAt = session.visits.last?.timestamp ?? Date()
+        if !session.visits.isEmpty {
+            sessions.insert(session, at: 0)
+            persistSessions()
+        }
         currentSession = nil
-        persistSessions()
+        persistCurrentSession()
     }
 
     var streetsExploredCount: Int {
@@ -170,14 +187,18 @@ final class JourneyStore: ObservableObject {
             persistFirstSeen()
         }
 
-        guard var session = currentSession else {
-            if firstEver {
-                notifyFirstVisit(streetName: streetName, card: card)
-            }
-            return
+        // Journeys record automatically. Roll to a new session if the last
+        // street was long enough ago that this is a separate walk.
+        if let last = currentSession?.visits.last,
+           Date().timeIntervalSince(last.timestamp) > sessionGap {
+            archiveCurrentSession()
+        }
+        if currentSession == nil {
+            currentSession = WalkSession(startedAt: Date())
         }
 
-        if session.visits.last?.streetName == streetName {
+        // Same street as last update: nothing new to log.
+        if currentSession?.visits.last?.streetName == streetName {
             return
         }
 
@@ -192,14 +213,24 @@ final class JourneyStore: ObservableObject {
             longitude: location.coordinate.longitude
         )
 
-        session.visits.append(visit)
-        currentSession = session
+        currentSession?.visits.append(visit)
+        persistCurrentSession()
         notifyIfNeeded(for: visit, firstEver: firstEver)
     }
 
     func clearHistory() {
         sessions = []
+        currentSession = nil
         UserDefaults.standard.removeObject(forKey: sessionsKey)
+        UserDefaults.standard.removeObject(forKey: currentSessionKey)
+    }
+
+    private func persistCurrentSession() {
+        if let session = currentSession, let data = try? encoder.encode(session) {
+            UserDefaults.standard.set(data, forKey: currentSessionKey)
+        } else {
+            UserDefaults.standard.removeObject(forKey: currentSessionKey)
+        }
     }
 
     func isFavorite(_ streetName: String) -> Bool {
