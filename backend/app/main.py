@@ -1,5 +1,6 @@
 import re
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 
 from .cache import SimpleTTLCache, encode_geohash
 from .db import fetch_one, fetch_all
@@ -18,6 +19,15 @@ from .queries import (
 )
 
 app = FastAPI(title="NYC Street History API")
+
+# Allow the browser-based explore page (and the marketing site) to call the API.
+# ponytail: read-only public GET endpoints, so a permissive origin list is fine.
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["GET"],
+    allow_headers=["*"],
+)
 
 ORDINAL_PAT = re.compile(r"^(\d+)(ST|ND|RD|TH)$", re.IGNORECASE)
 
