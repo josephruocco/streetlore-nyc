@@ -7,9 +7,9 @@ struct AppIconOption: Identifiable {
     let altName: String?   // nil = primary (the LORE ST photo)
 
     static let all: [AppIconOption] = [
-        .init(label: "Street sign photo (default)", altName: nil),
-        .init(label: "Clean sign", altName: "AppIconClean"),
-        .init(label: "Hand-drawn", altName: "AppIconDoodle"),
+        .init(label: "AI Slop (derogatory)", altName: nil),
+        .init(label: "AI Slop (Tasteful)", altName: "AppIconClean"),
+        .init(label: "Non AI Slop", altName: "AppIconDoodle"),
     ]
 }
 
