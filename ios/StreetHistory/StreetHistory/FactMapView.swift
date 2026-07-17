@@ -106,6 +106,26 @@ struct FactMapView: View {
             span: MKCoordinateSpan(latitudeDelta: 0.08, longitudeDelta: 0.08)
         )
     )
+    @State private var visibleRegion: MKCoordinateRegion?
+
+    /// Only the pins inside the current viewport (deduped by name, capped),
+    /// so the map isn't drawing all ~670 annotations at once.
+    private var visibleFacts: [FactMapItem] {
+        guard let r = visibleRegion else { return Array(vm.facts.prefix(250)) }
+        let latMin = r.center.latitude - r.span.latitudeDelta / 2 - 0.005
+        let latMax = r.center.latitude + r.span.latitudeDelta / 2 + 0.005
+        let lonMin = r.center.longitude - r.span.longitudeDelta / 2 - 0.005
+        let lonMax = r.center.longitude + r.span.longitudeDelta / 2 + 0.005
+        var seen = Set<String>()
+        var out: [FactMapItem] = []
+        for f in vm.facts {
+            if f.lat < latMin || f.lat > latMax || f.lon < lonMin || f.lon > lonMax { continue }
+            if !seen.insert(f.id).inserted { continue }
+            out.append(f)
+            if out.count >= 300 { break }
+        }
+        return out
+    }
 
     private var searchResults: [FactMapItem] {
         guard !searchText.isEmpty else { return [] }
@@ -139,7 +159,7 @@ struct FactMapView: View {
             Map(position: $position) {
                 UserAnnotation()
 
-                ForEach(vm.facts) { fact in
+                ForEach(visibleFacts) { fact in
                     Annotation(prettifyStreetName(fact.street_name), coordinate: fact.coordinate) {
                         Button {
                             nearbyMode = false
@@ -158,6 +178,9 @@ struct FactMapView: View {
                 }
             }
             .mapStyle(.standard(pointsOfInterest: .excludingAll))
+            .onMapCameraChange(frequency: .onEnd) { context in
+                visibleRegion = context.region
+            }
 
             VStack(spacing: 0) {
                 HStack(spacing: 10) {
