@@ -3,7 +3,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from .cache import SimpleTTLCache, encode_geohash
-from .db import fetch_one, fetch_all
+from .db import fetch_one, fetch_all, execute
 from .models import CardResponse, NearbyItem, Source, HistoryEntry, FactMapItem
 from .settings import settings
 from .queries import (
@@ -241,10 +241,34 @@ def card(lat: float, lon: float, acc: float = 25.0):
             CARD_CACHE.set(cache_key, response.dict(), ttl_seconds=CARD_CACHE_TTL_SECONDS)
     return response
 
+MAP_CACHE = SimpleTTLCache()
+
+
+@app.on_event("startup")
+def ensure_indexes():
+    # The map query joins facts to street segments by name and does a per-row
+    # neighborhood containment check. Without these indexes it runs ~60s.
+    for ddl in (
+        "CREATE INDEX IF NOT EXISTS idx_neighborhood_geom ON neighborhood USING GIST (geom)",
+        "CREATE INDEX IF NOT EXISTS idx_street_segment_geom ON street_segment USING GIST (geom)",
+        "CREATE INDEX IF NOT EXISTS idx_street_segment_lname ON street_segment (LOWER(BTRIM(primary_name)))",
+    ):
+        try:
+            execute(ddl)
+        except Exception:
+            pass
+
+
 @app.get("/v1/facts/map", response_model=list[FactMapItem])
 def facts_map(min_confidence: float = 0.0):
+    key = f"map:{min_confidence}"
+    cached = MAP_CACHE.get(key)
+    if cached is not None:
+        return cached
     rows = fetch_all(FACTS_MAP_SQL, {"min_confidence": min_confidence})
-    return [FactMapItem(**r) for r in rows]
+    result = [FactMapItem(**r) for r in rows]
+    MAP_CACHE.set(key, result, ttl_seconds=21600)  # 6h; map data rarely changes
+    return result
 
 
 @app.get("/health")
