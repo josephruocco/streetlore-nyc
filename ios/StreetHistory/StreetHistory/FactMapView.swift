@@ -57,11 +57,20 @@ final class FactMapViewModel: ObservableObject {
         isLoading = false
     }
 
+    func retry() async {
+        errorText = nil
+        isLoading = true
+        await fetchAndCache()
+        isLoading = false
+    }
+
     private func fetchAndCache() async {
         do {
             var comps = URLComponents(string: "\(baseURL)/v1/facts/map")!
             comps.queryItems = [.init(name: "min_confidence", value: "0.0")]
-            let (data, resp) = try await URLSession.shared.data(from: comps.url!)
+            var req = URLRequest(url: comps.url!)
+            req.timeoutInterval = 30
+            let (data, resp) = try await URLSession.shared.data(for: req)
             let http = resp as! HTTPURLResponse
             guard (200..<300).contains(http.statusCode) else {
                 if facts.isEmpty { errorText = "Server error (\(http.statusCode))" }
@@ -283,12 +292,19 @@ struct FactMapView: View {
             }
 
             if let error = vm.errorText {
-                VStack(spacing: 8) {
+                VStack(spacing: 10) {
                     Image(systemName: "exclamationmark.triangle")
                         .font(.title2)
                     Text(error)
                         .font(.caption)
                         .multilineTextAlignment(.center)
+                    Button("Retry") {
+                        Task { await vm.retry() }
+                    }
+                    .font(.subheadline.weight(.semibold))
+                    .padding(.horizontal, 16).padding(.vertical, 8)
+                    .background(Color(red: 0.40, green: 0.24, blue: 0.14), in: Capsule())
+                    .foregroundStyle(.white)
                 }
                 .padding()
                 .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 14))
