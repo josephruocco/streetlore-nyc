@@ -16,6 +16,7 @@ from .queries import (
     FACT_BY_PLACENAME_SQL,
     CROSS_STREET_SQL,
     FACTS_MAP_SQL,
+    PLACE_FACTS_MAP_SQL,
     STREET_LINES_SQL,
     is_numbered_or_lettered_street,
 )
@@ -268,6 +269,7 @@ def facts_map(min_confidence: float = 0.0):
     if cached is not None:
         return cached
     rows = fetch_all(FACTS_MAP_SQL, {"min_confidence": min_confidence})
+    rows += fetch_all(PLACE_FACTS_MAP_SQL, {"min_confidence": min_confidence})
     result = [FactMapItem(**r) for r in rows]
     MAP_CACHE.set(key, result, ttl_seconds=21600)  # 6h; map data rarely changes
     return result

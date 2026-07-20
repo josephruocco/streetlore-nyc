@@ -33,6 +33,7 @@ class FactMapItem(BaseModel):
     borough: Optional[str] = None
     neighborhood: Optional[str] = None
     rarity: str = "common"
+    kind: str = "street"   # street | place
 
 
 class StreetLine(BaseModel):

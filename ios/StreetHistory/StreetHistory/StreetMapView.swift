@@ -136,7 +136,7 @@ struct StreetMapView: UIViewRepresentable {
             let view = mapView.dequeueReusableAnnotationView(
                 withIdentifier: Self.reuseID, for: annotation) as? MKMarkerAnnotationView
             view?.markerTintColor = Self.color(for: fact.fact.confidence)
-            view?.glyphImage = UIImage(systemName: "signpost.right.fill")
+            view?.glyphImage = UIImage(systemName: fact.fact.isPlace ? "tree.fill" : "signpost.right.fill")
             view?.displayPriority = .defaultLow
             view?.clusteringIdentifier = "storiedStreet"
             return view

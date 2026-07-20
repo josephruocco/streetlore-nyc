@@ -158,6 +158,7 @@ SELECT
     WHEN ST_Length(s.geom::geography) < 350 THEN 'uncommon'
     ELSE 'common'
   END AS rarity,
+  'street' AS kind,
   ST_Y(ST_Centroid(s.geom)) AS lat,
   ST_X(ST_Centroid(s.geom)) AS lon
 FROM fact f
@@ -174,6 +175,42 @@ LEFT JOIN LATERAL (
   LIMIT 1
 ) n ON true
 WHERE f.key_type = 'street_name'
+  AND f.confidence >= :min_confidence
+ORDER BY f.key_value;
+"""
+
+# Parks and other named places that have a fact. Same shape as FACTS_MAP_SQL so
+# both feed one map response; a park is a point already, so there is no line.
+PLACE_FACTS_MAP_SQL = """
+SELECT
+  f.key_value AS street_name,
+  f.fact_text,
+  f.namesake,
+  f.source_label,
+  f.source_url,
+  f.confidence,
+  NULL AS borough,
+  n.name AS neighborhood,
+  'common' AS rarity,
+  'place' AS kind,
+  ST_Y(p.geom) AS lat,
+  ST_X(p.geom) AS lon
+FROM fact f
+JOIN LATERAL (
+  SELECT geom
+  FROM poi
+  WHERE LOWER(BTRIM(name)) = LOWER(BTRIM(f.key_value))
+    AND category IN ('park', 'landmark')
+  ORDER BY rank_score DESC
+  LIMIT 1
+) p ON true
+LEFT JOIN LATERAL (
+  SELECT name
+  FROM neighborhood
+  WHERE ST_Contains(geom, p.geom)
+  LIMIT 1
+) n ON true
+WHERE f.key_type = 'place_name'
   AND f.confidence >= :min_confidence
 ORDER BY f.key_value;
 """
