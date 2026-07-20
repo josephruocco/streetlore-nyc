@@ -4,16 +4,21 @@ import MapKit
 /// Annotation that carries the fact so taps can surface it.
 final class FactAnnotation: NSObject, MKAnnotation {
     let fact: FactMapItem
-    var coordinate: CLLocationCoordinate2D { fact.coordinate }
+    /// Dynamic so MapKit animates the pin when we slide it along the street.
+    @objc dynamic var coordinate: CLLocationCoordinate2D
     var title: String? { fact.street_name.capitalized }
 
-    init(fact: FactMapItem) { self.fact = fact }
+    init(fact: FactMapItem) {
+        self.fact = fact
+        self.coordinate = fact.coordinate
+    }
 }
 
 /// Polyline that remembers which street it belongs to.
 final class StreetPolyline: MKPolyline {
     var confidence: Double = 0.8
     var key: String = ""
+    var street: String = ""
 }
 
 /// UIKit map. MapKit renders overlays natively and recycles annotation views,
@@ -45,8 +50,9 @@ struct StreetMapView: UIViewRepresentable {
 
     func updateUIView(_ map: MKMapView, context: Context) {
         context.coordinator.parent = self
-        context.coordinator.syncOverlays(map, lines: lines)
-        context.coordinator.syncAnnotations(map, facts: facts)
+        let changedLines = context.coordinator.syncOverlays(map, lines: lines)
+        let changedPins = context.coordinator.syncAnnotations(map, facts: facts)
+        if changedLines || changedPins { context.coordinator.repositionPins(map) }
 
         if let target = cameraTarget, !context.coordinator.matchesLastApplied(target) {
             context.coordinator.lastApplied = target
@@ -71,10 +77,11 @@ struct StreetMapView: UIViewRepresentable {
         }
 
         /// Add/remove only what changed rather than rebuilding every frame.
-        func syncOverlays(_ map: MKMapView, lines: [StreetLine]) {
+        @discardableResult
+        func syncOverlays(_ map: MKMapView, lines: [StreetLine]) -> Bool {
             let incoming = Dictionary(lines.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
             let newKeys = Set(incoming.keys)
-            guard newKeys != overlayKeys else { return }
+            guard newKeys != overlayKeys else { return false }
 
             let stale = map.overlays.compactMap { $0 as? StreetPolyline }.filter { !newKeys.contains($0.key) }
             if !stale.isEmpty { map.removeOverlays(stale) }
@@ -88,16 +95,19 @@ struct StreetMapView: UIViewRepresentable {
                 let poly = StreetPolyline(coordinates: &coords, count: coords.count)
                 poly.confidence = line.confidence
                 poly.key = key
+                poly.street = line.street_name.lowercased()
                 added.append(poly)
             }
             if !added.isEmpty { map.addOverlays(added) }
             overlayKeys = newKeys
+            return true
         }
 
-        func syncAnnotations(_ map: MKMapView, facts: [FactMapItem]) {
+        @discardableResult
+        func syncAnnotations(_ map: MKMapView, facts: [FactMapItem]) -> Bool {
             let incoming = Dictionary(facts.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
             let newKeys = Set(incoming.keys)
-            guard newKeys != annotationKeys else { return }
+            guard newKeys != annotationKeys else { return false }
 
             let stale = map.annotations.compactMap { $0 as? FactAnnotation }
                 .filter { !newKeys.contains($0.fact.id) }
@@ -106,6 +116,7 @@ struct StreetMapView: UIViewRepresentable {
             let toAdd = newKeys.subtracting(annotationKeys).compactMap { incoming[$0] }
             if !toAdd.isEmpty { map.addAnnotations(toAdd.map(FactAnnotation.init)) }
             annotationKeys = newKeys
+            return true
         }
 
         func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
@@ -139,7 +150,43 @@ struct StreetMapView: UIViewRepresentable {
         }
 
         func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+            repositionPins(mapView)
             parent.onRegionChange(mapView.region)
+        }
+
+        /// Long streets can run far past the viewport, leaving their pin offscreen.
+        /// Slide each pin to the point on its own line nearest the middle of the view.
+        func repositionPins(_ map: MKMapView) {
+            let visible = map.visibleMapRect
+            let center = MKMapPoint(map.region.center)
+
+            var byStreet: [String: [StreetPolyline]] = [:]
+            for poly in map.overlays.compactMap({ $0 as? StreetPolyline }) where poly.boundingMapRect.intersects(visible) {
+                byStreet[poly.street, default: []].append(poly)
+            }
+            guard !byStreet.isEmpty else { return }
+
+            for pin in map.annotations.compactMap({ $0 as? FactAnnotation }) {
+                guard let polys = byStreet[pin.fact.street_name.lowercased()] else { continue }
+
+                var best: MKMapPoint?
+                var bestDistance = Double.greatestFiniteMagnitude
+                for poly in polys {
+                    let points = poly.points()
+                    for i in 0..<poly.pointCount where visible.contains(points[i]) {
+                        let d = points[i].distance(to: center)
+                        if d < bestDistance {
+                            bestDistance = d
+                            best = points[i]
+                        }
+                    }
+                }
+
+                if let best, best.coordinate.latitude != pin.coordinate.latitude
+                    || best.coordinate.longitude != pin.coordinate.longitude {
+                    pin.coordinate = best.coordinate
+                }
+            }
         }
 
         static func color(for confidence: Double) -> UIColor {
