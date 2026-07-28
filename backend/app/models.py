@@ -55,5 +55,6 @@ class CardResponse(BaseModel):
     image_url: Optional[str] = None
     image_source_url: Optional[str] = None
     did_you_know: Optional[str] = None
+    fact_count: int = 0  # how many facts this street has, so the app can size its rotation
     nearby: List[NearbyItem] = []
     sources: List[Source] = []

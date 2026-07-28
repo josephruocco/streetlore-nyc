@@ -53,6 +53,7 @@ struct CardResponse: Codable {
     let image_url: String?
     let image_source_url: String?
     let did_you_know: String?
+    let fact_count: Int?      // how many rotating facts this street has
     let nearby: [NearbyItem]
     let sources: [FactSource]?
 

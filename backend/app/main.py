@@ -13,6 +13,7 @@ from .queries import (
     NEARBY_POI_SQL,
     FACT_BY_STREETCODE_SQL,
     FACT_BY_STREETNAME_SQL,
+    FACTS_BY_STREETNAME_SQL,
     FACT_BY_PLACENAME_SQL,
     CROSS_STREET_SQL,
     FACTS_MAP_SQL,
@@ -161,8 +162,8 @@ def infer_namesake(text: str | None) -> str | None:
 
 
 @app.get("/v1/card", response_model=CardResponse)
-def card(lat: float, lon: float, acc: float = 25.0):
-    cache_key = f"card:{encode_geohash(lat, lon, precision=CARD_CACHE_PRECISION)}"
+def card(lat: float, lon: float, acc: float = 25.0, rotate: int = 0):
+    cache_key = f"card:{encode_geohash(lat, lon, precision=CARD_CACHE_PRECISION)}:{rotate}"
     cached = CARD_CACHE.get(cache_key)
     if cached is not None:
         return CardResponse(**cached)
@@ -183,20 +184,25 @@ def card(lat: float, lon: float, acc: float = 25.0):
     history_blurb = None
     image_url = None
     image_source_url = None
+    fact_count = 0
     sources: list[Source] = []
 
     if mode in ("NAMED_STREET", "NUMBERED_STREET"):
         fact = None
 
-        if street.get("street_code"):
-            fact = fetch_one(FACT_BY_STREETCODE_SQL, {"street_code": street["street_code"]})
+        # Prefer the full rotating set keyed by street name; the client passes a
+        # per-street visit index so a new fact surfaces each walk.
+        normalized_street = normalize_fact_street_name(prettify_street_name(street.get("primary_name")))
+        if normalized_street:
+            rows = fetch_all(FACTS_BY_STREETNAME_SQL, {"street_name": normalized_street})
+            facts = [extract_fact_payload(r) for r in rows]
+            facts = [f for f in facts if f]
+            fact_count = len(facts)
+            if facts:
+                fact = facts[rotate % len(facts)]
 
-        if not fact:
-            normalized_street = normalize_fact_street_name(prettify_street_name(street.get("primary_name")))
-            if normalized_street:
-                fact = fetch_one(FACT_BY_STREETNAME_SQL, {"street_name": normalized_street})
-
-        fact = extract_fact_payload(fact)
+        if not fact and street.get("street_code"):
+            fact = extract_fact_payload(fetch_one(FACT_BY_STREETCODE_SQL, {"street_code": street["street_code"]}))
 
         if fact:
             history_blurb = fact.get("history_blurb") or fact.get("fact_text")
@@ -234,6 +240,7 @@ def card(lat: float, lon: float, acc: float = 25.0):
         image_url=image_url,
         image_source_url=image_source_url,
         did_you_know=did_you_know,
+        fact_count=fact_count,
         nearby=[NearbyItem(**n) for n in nearby],
         sources=sources,
     )

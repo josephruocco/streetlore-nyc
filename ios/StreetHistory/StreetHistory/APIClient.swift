@@ -8,12 +8,13 @@ final class APIClient {
             ?? "https://nyc-street-history.onrender.com"
     }
 
-    func fetchCard(lat: Double, lon: Double, acc: Double) async throws -> CardResponse {
+    func fetchCard(lat: Double, lon: Double, acc: Double, rotate: Int = 0) async throws -> CardResponse {
         var comps = URLComponents(string: "\(baseURL)/v1/card")!
         comps.queryItems = [
             .init(name: "lat", value: "\(lat)"),
             .init(name: "lon", value: "\(lon)"),
-            .init(name: "acc", value: "\(acc)")
+            .init(name: "acc", value: "\(acc)"),
+            .init(name: "rotate", value: "\(rotate)")
         ]
         let url = comps.url!
 
