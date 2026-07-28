@@ -51,7 +51,7 @@ VALUES (
   %(confidence)s,
   now()
 )
-ON CONFLICT (key_type, key_value)
+ON CONFLICT (key_type, key_value, md5(fact_text))
 DO UPDATE SET
   fact_text = EXCLUDED.fact_text,
   namesake = EXCLUDED.namesake,
@@ -128,10 +128,14 @@ def ensure_unique_constraint(conn) -> None:
         cur.execute("ALTER TABLE fact ADD COLUMN IF NOT EXISTS history_blurb TEXT;")
         cur.execute("ALTER TABLE fact ADD COLUMN IF NOT EXISTS image_url TEXT;")
         cur.execute("ALTER TABLE fact ADD COLUMN IF NOT EXISTS image_source_url TEXT;")
+        # A street now holds several rotating facts, so the fact identity is the
+        # text itself, not just the street. Re-importing the same fact upserts;
+        # a new fact for the same street adds a row.
+        cur.execute("DROP INDEX IF EXISTS uq_fact_key_type_value;")
         cur.execute(
             """
-            CREATE UNIQUE INDEX IF NOT EXISTS uq_fact_key_type_value
-            ON fact (key_type, key_value);
+            CREATE UNIQUE INDEX IF NOT EXISTS uq_fact_key_value_text
+            ON fact (key_type, key_value, md5(fact_text));
             """
         )
     conn.commit()
