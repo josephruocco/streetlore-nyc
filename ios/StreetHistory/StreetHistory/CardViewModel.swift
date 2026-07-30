@@ -1,6 +1,7 @@
 import Foundation
 import Combine
 import CoreLocation
+import WidgetKit
 
 @MainActor
 final class CardViewModel: ObservableObject {
@@ -68,6 +69,7 @@ final class CardViewModel: ObservableObject {
             errorText = nil
             lastUpdatedAt = now
             persist(res)
+            shareWithWidget(res)
         } catch {
             // Keep cached card; show error
             errorText = error.localizedDescription
@@ -78,5 +80,16 @@ final class CardViewModel: ObservableObject {
         if let data = try? JSONEncoder().encode(card) {
             UserDefaults.standard.set(data, forKey: cacheKey)
         }
+    }
+
+    // Hand the current street to the widget via the shared App Group, then nudge
+    // WidgetKit to refresh. The widget treats a recent write as "on a walk".
+    private func shareWithWidget(_ card: CardResponse) {
+        guard let d = UserDefaults(suiteName: "group.com.josephruocco.StreetHistory") else { return }
+        d.set(card.canonical_street, forKey: "cur_street")
+        d.set(card.did_you_know, forKey: "cur_fact")
+        d.set(card.neighborhood, forKey: "cur_hood")
+        d.set(Date().timeIntervalSince1970, forKey: "cur_ts")
+        WidgetCenter.shared.reloadTimelines(ofKind: "StreetLoreWidget")
     }
 }

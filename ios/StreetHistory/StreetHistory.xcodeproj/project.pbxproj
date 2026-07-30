@@ -6,11 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D96FCA83301BC21800E5B7A9 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96FCA82301BC21800E5B7A9 /* WidgetKit.framework */; };
+		D96FCA85301BC21800E5B7A9 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D96FCA84301BC21800E5B7A9 /* SwiftUI.framework */; };
+		D96FCA92301BC21A00E5B7A9 /* StreetLoreWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D96FCA80301BC21800E5B7A9 /* StreetLoreWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D96FCA90301BC21A00E5B7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97D819D2F3BE49800933D15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D96FCA7F301BC21800E5B7A9;
+			remoteInfo = StreetLoreWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D96FCA93301BC21A00E5B7A9 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D96FCA92301BC21A00E5B7A9 /* StreetLoreWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D96FCA80301BC21800E5B7A9 /* StreetLoreWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StreetLoreWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96FCA82301BC21800E5B7A9 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D96FCA84301BC21800E5B7A9 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		D97D81A52F3BE49800933D15 /* StreetHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreetHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D96FCA97301BC21A00E5B7A9 /* Exceptions for "StreetLoreWidget" folder in "StreetLoreWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D96FCA7F301BC21800E5B7A9 /* StreetLoreWidgetExtension */;
+		};
 		D97D81C02F3BE59800933D15 /* Exceptions for "StreetHistory" folder in "StreetHistory" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -21,6 +61,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D96FCA86301BC21800E5B7A9 /* StreetLoreWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D96FCA97301BC21A00E5B7A9 /* Exceptions for "StreetLoreWidget" folder in "StreetLoreWidgetExtension" target */,
+			);
+			path = StreetLoreWidget;
+			sourceTree = "<group>";
+		};
 		D97D81A72F3BE49800933D15 /* StreetHistory */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,6 +80,15 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D96FCA7D301BC21800E5B7A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96FCA85301BC21800E5B7A9 /* SwiftUI.framework in Frameworks */,
+				D96FCA83301BC21800E5B7A9 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97D81A22F3BE49800933D15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +99,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D96FCA81301BC21800E5B7A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D96FCA82301BC21800E5B7A9 /* WidgetKit.framework */,
+				D96FCA84301BC21800E5B7A9 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D97D819C2F3BE49800933D15 = {
 			isa = PBXGroup;
 			children = (
 				D97D81A72F3BE49800933D15 /* StreetHistory */,
+				D96FCA86301BC21800E5B7A9 /* StreetLoreWidget */,
+				D96FCA81301BC21800E5B7A9 /* Frameworks */,
 				D97D81A62F3BE49800933D15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				D97D81A52F3BE49800933D15 /* StreetHistory.app */,
+				D96FCA80301BC21800E5B7A9 /* StreetLoreWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +130,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D96FCA7F301BC21800E5B7A9 /* StreetLoreWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96FCA96301BC21A00E5B7A9 /* Build configuration list for PBXNativeTarget "StreetLoreWidgetExtension" */;
+			buildPhases = (
+				D96FCA7C301BC21800E5B7A9 /* Sources */,
+				D96FCA7D301BC21800E5B7A9 /* Frameworks */,
+				D96FCA7E301BC21800E5B7A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D96FCA86301BC21800E5B7A9 /* StreetLoreWidget */,
+			);
+			name = StreetLoreWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = StreetLoreWidgetExtension;
+			productReference = D96FCA80301BC21800E5B7A9 /* StreetLoreWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D97D81A42F3BE49800933D15 /* StreetHistory */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97D81B02F3BE49A00933D15 /* Build configuration list for PBXNativeTarget "StreetHistory" */;
@@ -68,10 +159,12 @@
 				D97D81A12F3BE49800933D15 /* Sources */,
 				D97D81A22F3BE49800933D15 /* Frameworks */,
 				D97D81A32F3BE49800933D15 /* Resources */,
+				D96FCA93301BC21A00E5B7A9 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D96FCA91301BC21A00E5B7A9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				D97D81A72F3BE49800933D15 /* StreetHistory */,
@@ -93,6 +186,9 @@
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
+					D96FCA7F301BC21800E5B7A9 = {
+						CreatedOnToolsVersion = 26.2;
+					};
 					D97D81A42F3BE49800933D15 = {
 						CreatedOnToolsVersion = 26.2;
 						LastSwiftMigration = 2620;
@@ -114,11 +210,19 @@
 			projectRoot = "";
 			targets = (
 				D97D81A42F3BE49800933D15 /* StreetHistory */,
+				D96FCA7F301BC21800E5B7A9 /* StreetLoreWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D96FCA7E301BC21800E5B7A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97D81A32F3BE49800933D15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,6 +233,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D96FCA7C301BC21800E5B7A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97D81A12F3BE49800933D15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,7 +249,75 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D96FCA91301BC21A00E5B7A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D96FCA7F301BC21800E5B7A9 /* StreetLoreWidgetExtension */;
+			targetProxy = D96FCA90301BC21A00E5B7A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D96FCA94301BC21A00E5B7A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BZ5M39S4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetLoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StreetLoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephruocco.StreetHistory.StreetLoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D96FCA95301BC21A00E5B7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6BZ5M39S4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StreetLoreWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StreetLoreWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josephruocco.StreetHistory.StreetLoreWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D97D81AE2F3BE49A00933D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,6 +521,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D96FCA96301BC21A00E5B7A9 /* Build configuration list for PBXNativeTarget "StreetLoreWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96FCA94301BC21A00E5B7A9 /* Debug */,
+				D96FCA95301BC21A00E5B7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D97D81A02F3BE49800933D15 /* Build configuration list for PBXProject "StreetHistory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
