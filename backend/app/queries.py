@@ -141,6 +141,31 @@ WHERE key_type = 'street_name' AND LOWER(BTRIM(key_value)) = :street_name
 ORDER BY confidence DESC, id ASC;
 """
 
+# The nearest "moment" (a viral happening pinned to a spot) whose trigger radius
+# you are standing inside. Surfaced ahead of the street so walking into
+# Washington Square Park gives you the Chalamet contest.
+MOMENT_NEAR_SQL = """
+SELECT key_value AS name, fact_text, history_blurb, namesake, source_label, source_url
+FROM fact
+WHERE key_type = 'moment' AND lat IS NOT NULL
+  AND ST_DWithin(
+    ST_SetSRID(ST_MakePoint(lon, lat), 4326)::geography,
+    ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography,
+    COALESCE(radius_m, 120))
+ORDER BY ST_Distance(
+    ST_SetSRID(ST_MakePoint(lon, lat), 4326)::geography,
+    ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)::geography)
+LIMIT 1;
+"""
+
+# Moments as map pins (they carry their own coordinates).
+MOMENT_MAP_SQL = """
+SELECT key_value AS street_name, fact_text, namesake, source_label, source_url,
+       confidence, lat, lon, NULL AS borough, NULL AS neighborhood, 'rare' AS rarity
+FROM fact
+WHERE key_type = 'moment' AND lat IS NOT NULL AND confidence >= :min_confidence;
+"""
+
 FACT_BY_PLACENAME_SQL = """
 SELECT to_jsonb(fact) AS fact
 FROM fact

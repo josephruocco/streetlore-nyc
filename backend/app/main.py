@@ -14,6 +14,8 @@ from .queries import (
     FACT_BY_STREETCODE_SQL,
     FACT_BY_STREETNAME_SQL,
     FACTS_BY_STREETNAME_SQL,
+    MOMENT_NEAR_SQL,
+    MOMENT_MAP_SQL,
     FACT_BY_PLACENAME_SQL,
     CROSS_STREET_SQL,
     FACTS_MAP_SQL,
@@ -168,6 +170,24 @@ def card(lat: float, lon: float, acc: float = 25.0, rotate: int = 0):
     if cached is not None:
         return CardResponse(**cached)
 
+    # A viral "moment" you are standing inside wins over the street beneath it.
+    moment = fetch_one(MOMENT_NEAR_SQL, {"lat": lat, "lon": lon})
+    if moment:
+        blurb = moment.get("history_blurb") or moment.get("fact_text")
+        src = Source(label=moment.get("source_label") or "source", url=moment.get("source_url"))
+        response = CardResponse(
+            canonical_street=moment["name"],
+            mode="NEAR",
+            history=HistoryEntry(namesake=moment.get("namesake"), blurb=blurb, source=src),
+            namesake=moment.get("namesake"),
+            history_blurb=blurb,
+            did_you_know=blurb,
+            sources=[src],
+        )
+        if CARD_CACHE_TTL_SECONDS > 0 and hasattr(response, "model_dump"):
+            CARD_CACHE.set(cache_key, response.model_dump(), ttl_seconds=CARD_CACHE_TTL_SECONDS)
+        return response
+
     radius_m = max(40, min(int(acc * 2.0), 120))
 
     street = fetch_one(SNAP_STREET_SQL, {"lat": lat, "lon": lon, "radius_m": radius_m})
@@ -277,6 +297,7 @@ def facts_map(min_confidence: float = 0.0):
         return cached
     rows = fetch_all(FACTS_MAP_SQL, {"min_confidence": min_confidence})
     rows += fetch_all(PLACE_FACTS_MAP_SQL, {"min_confidence": min_confidence})
+    rows += fetch_all(MOMENT_MAP_SQL, {"min_confidence": min_confidence})
     result = [FactMapItem(**r) for r in rows]
     MAP_CACHE.set(key, result, ttl_seconds=900)  # 15m; the nightly routine adds facts daily
     return result
