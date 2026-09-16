@@ -53,13 +53,10 @@ enum BoroughSigns {
         return nil
     }
 
+    // Taken from real NYC borough signage.
     private static let welcome: [String: [String]] = [
-        "brooklyn": ["Welcome to Brooklyn: Believe the Hype!",
-                     "Welcome to Brooklyn: How Sweet It Is!",
-                     "Welcome to Brooklyn: Name It, We Got It!",
-                     "Brooklyn's in the House!"],
-        "queens": ["Welcome to Queens: The World's Borough!",
-                   "Welcome to Queens: Every Language, One Borough."],
+        "brooklyn": ["Welcome to Brooklyn: Like No Other Place on Earth"],
+        "queens": ["Queens Is the Future!"],
         "manhattan": ["Welcome to Manhattan: Watch the Closing Doors.",
                       "Welcome to Manhattan: Stand Clear of the Hype."],
         "bronx": ["Welcome to the Bronx: The Only Borough on the Mainland.",
@@ -68,8 +65,7 @@ enum BoroughSigns {
                           "Welcome to Staten Island: The Ferry's Free, Enjoy."],
     ]
 
-    private static let leaveBrooklyn = ["Leaving Brooklyn: Fuhgeddaboudit!",
-                                        "Leaving Brooklyn: Oy Vey!"]
+    private static let leaveBrooklyn = ["Leaving Brooklyn: Oy Vey!"]
 
     /// Slogan for crossing from `from` into `to`, or nil if no real crossing.
     static func slogan(from: String?, to: String?) -> String? {
