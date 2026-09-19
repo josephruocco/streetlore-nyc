@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Shore Parkway",
+    "found": true,
+    "fact": "Shore Parkway takes its name simply from its route along Brooklyn's waterfront shoreline. It was built as part of Robert Moses's Belt Parkway system and opened in 1940.",
+    "namesake": "Brooklyn's waterfront shoreline (descriptive name, not a person)",
+    "source_label": "NYC Parks, Belt Parkway/Shore Parkway Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/belt-parkway-shore-parkway/highlights",
+    "confidence": 0.7
+  },
+  {
+    "street": "East Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Riverdale Avenue",
+    "found": true,
+    "fact": "Riverdale Avenue takes its name from the Riverdale area, a name mid 19th century landowning families such as the Spauldings and Dodges coined for the hilly, streamfed valley along the Hudson River when marketing it as a scenic residential retreat.",
+    "namesake": "the Riverdale valley landscape (name coined by 19th century developers)",
+    "source_label": "Riverdale Neighborhood The Bronx NY, history of Riverdale",
+    "source_url": "https://riverdalethebronxneighborhood.org/from-green-hills-to-grand-homes-the-rich-history-and-enduring-charm-of-riverdale-bronx/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Jackson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "East Gun Hill Road",
+    "found": true,
+    "fact": "East Gun Hill Road is named for Gun Hill, a rise near the Bronx River where in January 1777 American soldiers dragged a cannon to the summit and fired on British troops below during the Revolutionary War. The road, previously called Kingsbridge Road, took the Gun Hill name in 1875.",
+    "namesake": "Gun Hill, site of a 1777 Revolutionary War cannon action",
+    "source_label": "Wikipedia, Gun Hill Road (road)",
+    "source_url": "https://en.wikipedia.org/wiki/Gun_Hill_Road_(road)",
+    "confidence": 0.75
+  },
+  {
+    "street": "Blake Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Veterans Road West",
+    "found": true,
+    "fact": "Veterans Road West was created to honor military veterans when the western end of the old Drumgoole Boulevard was renamed after the Richmond Parkway, later Korean War Veterans Parkway, was built along Drumgoole's original route in the early 1970s.",
+    "namesake": "military veterans generally",
+    "source_label": "Wikipedia, Korean War Veterans Parkway",
+    "source_url": "https://en.wikipedia.org/wiki/Korean_War_Veterans_Parkway",
+    "confidence": 0.6
+  },
+  {
+    "street": "Forest Park Drive",
+    "found": true,
+    "fact": "Forest Park Drive is named for Forest Park, the wooded Queens park it winds through. The drive was built between 1896 and 1904 as part of the park's original design.",
+    "namesake": "Forest Park, the surrounding Queens park",
+    "source_label": "The Cultural Landscape Foundation, Forest Park NY",
+    "source_url": "https://www.tclf.org/landscapes/forest-park-ny",
+    "confidence": 0.65
+  },
+  {
+    "street": "Troy Avenue",
+    "found": true,
+    "fact": "Troy Avenue is named for the city of Troy, New York. It is one of a cluster of Crown Heights avenues, including Kingston, Albany, Schenectady and Utica, whose names trace a path up the Hudson River and then west along the Mohawk.",
+    "namesake": "the city of Troy, New York",
+    "source_label": "Untapped New York, 10 NYC Neighborhoods with Thematic Street Names",
+    "source_url": "https://www.untappedcities.com/history-of-streets-10-nyc-neighborhoods-with-thematic-street-names/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Prospect Park West",
+    "found": true,
+    "fact": "Prospect Park West is named for the Brooklyn park it borders, which itself was named for the sweeping prospect, or view, of New York Harbor once visible from the hills of Flatbush where the park sits.",
+    "namesake": "Prospect Park, named for its scenic view",
+    "source_label": "Brownstoner, Prospect Park Brooklyn History: Name Origins",
+    "source_url": "https://www.brownstoner.com/history/prospect-park-brooklyn-history-name-origins-vale-of-cashmere-audubon-center/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Adee Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue Z",
+    "found": true,
+    "fact": "Avenue Z carries no personal namesake. It is simply the final entry in south Brooklyn's alphabetically lettered grid of east west avenues, Avenue A through Avenue Z, laid out under the borough's 19th century street plan.",
+    "namesake": "none, it is the last letter in Brooklyn's lettered avenue grid",
+    "source_label": "Wikipedia, List of lettered Brooklyn avenues",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_lettered_Brooklyn_avenues",
+    "confidence": 0.6
+  },
+  {
+    "street": "Baisley Boulevard",
+    "found": true,
+    "fact": "Baisley Boulevard is named for David Baisley, a farmer who owned the land around Baisley Pond and ran the grist mill there in the early 19th century, before the City of Brooklyn acquired the pond for its water system in 1852.",
+    "namesake": "David Baisley (1792 to 1875), local farmer and mill owner",
+    "source_label": "NYC Parks, Baisley Pond Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/baisley-pond-park/history",
+    "confidence": 0.8
+  },
+  {
+    "street": "Watson Avenue",
+    "found": true,
+    "fact": "Watson Avenue is named for William Watson, whose roughly 225 acre estate once stretched from the Bronx River at West Farms Square across Westchester Avenue. After Watson died in 1877 his property was divided into the lots and streets that now carry his name.",
+    "namesake": "William Watson (1812 to 1877), local landowner",
+    "source_label": "NYC Parks, Watson Gleason Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/watson-gleason-playground/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Avenue Y",
+    "found": true,
+    "fact": "Avenue Y carries no personal namesake. It is simply the next to last entry in south Brooklyn's alphabetically lettered grid of east west avenues, Avenue A through Avenue Z, laid out under the borough's 19th century street plan.",
+    "namesake": "none, a sequential letter in Brooklyn's lettered avenue grid",
+    "source_label": "Wikipedia, List of lettered Brooklyn avenues",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_lettered_Brooklyn_avenues",
+    "confidence": 0.6
+  },
+  {
+    "street": "Ashford Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Eldert Lane",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Huguenot Avenue",
+    "found": true,
+    "fact": "Huguenot Avenue takes its name from the Huguenot neighborhood it runs through, itself named for the French Protestant refugees, led by Daniel Perrin, who settled the area in the late 17th and early 18th centuries after fleeing religious persecution in Catholic France.",
+    "namesake": "the Huguenots, French Protestant refugees who settled the area",
+    "source_label": "Wikipedia, Huguenot, Staten Island",
+    "source_url": "https://en.wikipedia.org/wiki/Huguenot,_Staten_Island",
+    "confidence": 0.6
+  },
+  {
+    "street": "Westwood Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Edgecombe Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Queens Plaza South",
+    "found": true,
+    "fact": "Queens Plaza South takes its name from Queens Plaza, itself named for the borough of Queens. Queens County is presumed, though not officially confirmed, to honor Catherine of Braganza, queen consort of England, when the county was established in 1683.",
+    "namesake": "Catherine of Braganza (presumed namesake of Queens County, unconfirmed)",
+    "source_label": "Wikipedia, Queens",
+    "source_url": "https://en.wikipedia.org/wiki/Queens",
+    "confidence": 0.55
+  },
+  {
+    "street": "Beach Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Putnam Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Rockland Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Powells Cove Boulevard",
+    "found": true,
+    "fact": "Powells Cove Boulevard is named for John Powell, who bought the 87 acre waterfront parcel in Whitestone in 1786 and built a home there, after which the adjoining cove was renamed Powell's Cove.",
+    "namesake": "John Powell, 18th century property owner",
+    "source_label": "Wikipedia, Whitestone, Queens",
+    "source_url": "https://en.wikipedia.org/wiki/Whitestone,_Queens",
+    "confidence": 0.7
+  },
+  {
+    "street": "Van Sinderen Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Mason Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Seagirt Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Metropolitan Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Amboy Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Belt Parkway",
+    "found": true,
+    "fact": "Belt Parkway takes its name from the belt like loop it forms around Brooklyn and Queens, linking shoreline parkways from Owls Head Park toward the Whitestone Bridge. Robert Moses proposed the route in 1930 as the Circumferential Parkway, and the finished Belt System opened with dedication ceremonies in 1940.",
+    "namesake": "the belt shaped route the parkway forms around Brooklyn and Queens",
+    "source_label": "NYC Parks, Belt Parkway/Shore Parkway Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/belt-parkway-shore-parkway/highlights",
+    "confidence": 0.7
+  },
+  {
+    "street": "Seaview Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Woodrow Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue T",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "University Avenue",
+    "found": true,
+    "fact": "University Avenue is named for New York University, whose University Heights campus stood between Sedgwick and University Avenues from 1894 until 1973. NYU sold the 50 acre campus to the City University of New York, which now runs Bronx Community College on the site.",
+    "namesake": "New York University's University Heights campus",
+    "source_label": "Forgotten New York, University Heights, Bronx",
+    "source_url": "https://forgotten-ny.com/2008/03/university-heights-bronx/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Oceanside Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Co-Op City Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Underhill Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Brook Avenue",
+    "found": true,
+    "fact": "Brook Avenue is named for Mill Brook, a stream that once ran through the South Bronx and powered saw mills there in the 18th and 19th centuries. The waterway was buried as the area urbanized, and the avenue traces its former path.",
+    "namesake": "Mill Brook, the buried Bronx stream",
+    "source_label": "NYC Parks, Brook Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/X246/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Laconia Avenue",
+    "found": true,
+    "fact": "Laconia Avenue takes its name from Laconia, the ancient region of Greece whose capital was Sparta. Real estate developers building the neighborhood in the late 19th and early 20th centuries chose the classical name to give the new Bronx community an air of refinement.",
+    "namesake": "Laconia, the ancient Greek region",
+    "source_label": "CityNeighborhoods.NYC, Laconia",
+    "source_url": "https://www.cityneighborhoods.nyc/laconia",
+    "confidence": 0.55
+  },
+  {
+    "street": "Teleport Drive",
+    "found": true,
+    "fact": "Teleport Drive takes its name from the Teleport, a satellite communications business park that the Port Authority and the City of New York developed on Staten Island's West Shore starting in 1981. It was the country's first dedicated satellite teleport before being rebranded as an office and data park.",
+    "namesake": "the Teleport satellite communications business park",
+    "source_label": "Wikipedia, Teleport (Staten Island)",
+    "source_url": "https://en.wikipedia.org/wiki/Teleport_(Staten_Island)",
+    "confidence": 0.6
+  },
+  {
+    "street": "Shell Road",
+    "found": true,
+    "fact": "Shell Road is named for the crushed oyster shells once used to surface it. The route was built in the 1820s by the Gravesend and Coney Island Road and Bridge Company to connect Gravesend to the shore, running along a since filled canal near Coney Island Creek.",
+    "namesake": "the crushed oyster shells that paved the road",
+    "source_label": "NYC Parks, Coney Island Creek Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/coney-island-creek-park/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Bayside Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Brooklyn Navy Yard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue O",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Hutchinson River Parkway East",
+    "found": true,
+    "fact": "Hutchinson River Parkway is named for Anne Hutchinson, the religious dissenter exiled from the Massachusetts Bay Colony, who settled with her family near the river in 1642. She and most of her household were killed by Siwanoy warriors in 1643, and both the river and the parkway built along it starting in 1924 carry her name.",
+    "namesake": "Anne Hutchinson, colonial era religious dissenter",
+    "source_label": "NYC Parks, Hutchinson River Parkway Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/hutchinson-river-parkway/history",
+    "confidence": 0.85
+  },
+  {
+    "street": "Waring Avenue",
+    "found": true,
+    "fact": "Waring Avenue is named for Maria Waring, who owned land in the area between 1859 and 1872. She was born in Virginia in 1790, the daughter of Sarah Upshaw and Robert Payne Waring.",
+    "namesake": "Maria Waring, 19th century area landowner",
+    "source_label": "New York Public Library, Bronx History: What's in a (Street) Name?",
+    "source_url": "https://www.nypl.org/blog/2019/03/01/bronx-history-street-names-origins",
+    "confidence": 0.6
+  },
+  {
+    "street": "Aviation Road",
+    "found": true,
+    "fact": "Aviation Road takes its name from Floyd Bennett Field, New York City's first municipal airport, which it serves at 50 Aviation Road in Brooklyn. The field opened in 1931 and was itself named for Floyd Bennett, the aviator who piloted the first flight over the North Pole in 1926.",
+    "namesake": "Floyd Bennett Field, the airport the road serves",
+    "source_label": "Library of Congress, Floyd Bennett Field, 50 Aviation Road",
+    "source_url": "https://www.loc.gov/item/ny2420/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Zerega Avenue",
+    "found": true,
+    "fact": "Zerega Avenue is named for Augustus Zerega diZerega, a Venezuelan born merchant and shipowner who settled in the Westchester Square area in the 19th century. According to the Bronx history book History in Asphalt, he was known for keeping all his business dealings in his head rather than in ledgers.",
+    "namesake": "Augustus Zerega diZerega, 19th century merchant and shipowner",
+    "source_label": "Forgotten New York, Zerega Avenue, Bronx",
+    "source_url": "https://forgotten-ny.com/2023/06/zerega-avenue-bronx/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Willoughby Avenue",
+    "found": true,
+    "fact": "Willoughby Avenue is named for Samuel Willoughby, an immigrant dry goods merchant who founded the Brooklyn Bank in 1832 and became one of downtown Brooklyn's most prominent landowners. The avenue opened in sections between 1851 and 1871 across property he and his in laws, the Duffields, once held.",
+    "namesake": "Samuel Willoughby, 19th century Brooklyn merchant and landowner",
+    "source_label": "Forgotten New York, Willoughby Street",
+    "source_url": "https://forgotten-ny.com/2008/09/willoughby-next-stop-willoughby-a-downtown-brooklyn-street-hangs-in-there/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Booth Memorial Avenue",
+    "found": true,
+    "fact": "Booth Memorial Avenue is named for William Booth, the founder of the Salvation Army in 1865, honored through the Booth Memorial Hospital that the Salvation Army opened nearby in Flushing in 1957. The hospital carried his name for decades before becoming part of NewYork Presbyterian Queens.",
+    "namesake": "William Booth, founder of the Salvation Army, via Booth Memorial Hospital",
+    "source_label": "Wikipedia, Booth Memorial Hospital",
+    "source_url": "https://en.wikipedia.org/wiki/Booth_Memorial_Hospital",
+    "confidence": 0.6
+  },
+  {
+    "street": "Delancey St North",
+    "found": true,
+    "fact": "Delancey Street is named for the De Lancey family, wealthy French Huguenot landowners whose patriarch James De Lancey served as lieutenant governor and chief justice of colonial New York. Their roughly 120 block Lower East Side estate was seized after the Revolutionary War because the family sided with the British, and starting in 1803 the land was subdivided into streets, including Delancey.",
+    "namesake": "James De Lancey and the De Lancey family",
+    "source_label": "StreetEasy, History of Houston, Delancey and Canal Streets",
+    "source_url": "https://streeteasy.com/blog/history-houston-delancy-canal-streets/",
+    "confidence": 0.8
+  },
+  {
+    "street": "Dewey Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Hoe Avenue",
+    "found": true,
+    "fact": "Hoe Avenue is named for Richard March Hoe, inventor of the rotary printing press, whose 53 acre Hunts Point estate called Brightside once covered the area. The family sold the estate in 1897, and Bronx officials divided it into streets including Hoe Avenue, Aldus Street, and Guttenberg Street.",
+    "namesake": "Richard March Hoe, inventor of the rotary printing press",
+    "source_label": "NYC Parks, Printers Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/printers-park/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Willowbrook Road",
+    "found": true,
+    "fact": "Willowbrook Road is named for Willow Brook, a stream once lined with willow trees that wound through Staten Island's central wetlands. Sawmills and small industry had grown up along the brook by 1760, and its name survives in the road, the neighborhood, and Willowbrook Park.",
+    "namesake": "Willow Brook, the stream that once ran through the area",
+    "source_label": "NYC Parks, Willowbrook Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/willowbrook-park/history",
+    "confidence": 0.7
+  },
+  {
+    "street": "Newport Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bayview Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Van Duzer Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Ocean Promenade",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Peck Avenue",
+    "found": true,
+    "fact": "Peck Avenue is named for Isaac Peck, a longtime Flushing resident and property owner who ran a department store in College Point. He lived from 1824 to 1894 and is buried in St. George's churchyard in downtown Flushing.",
+    "namesake": "Isaac Peck, 19th century Flushing property owner",
+    "source_label": "Forgotten New York, Peck Avenue, Queens",
+    "source_url": "https://forgotten-ny.com/2020/08/peck-avenue-queens/",
+    "confidence": 0.65
+  }
+]

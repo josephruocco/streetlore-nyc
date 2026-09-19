@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Union Turnpike",
+    "found": true,
+    "fact": "Union Turnpike takes its name from the Union Race Course, a 19th century horse racing track near Springfield Gardens that was an ancestor of today's Belmont Park. The road began as a short stretch called Union Avenue in Glendale before being extended and renamed Union Turnpike in the early 20th century, though it was never an actual tollgate turnpike.",
+    "namesake": "Union Race Course",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2023/10/union-turnpike/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Shore Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Mosholu Parkway",
+    "found": true,
+    "fact": "Mosholu Parkway takes its name from Mosholu, a Lenape word meaning smooth stones or small stones, which described the creek now known as Tibbetts Brook. The parkway was created in the late 1880s to link Van Cortlandt Park with Bronx Park.",
+    "namesake": "Mosholu (Lenape word for smooth stones)",
+    "source_label": "NYC Parks",
+    "source_url": "https://www.nycgovparks.org/parks/mosholu-parkway/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Avenue K",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "East River Esplanade",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Adams Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Ocean Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Boardwalk",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Douglas Road",
+    "found": true,
+    "fact": "Douglas Road is named for William Douglas, who purchased about 180 acres around Oakland Lake in 1827. The neighboring community of Douglaston, developed by his descendants, also carries the family name.",
+    "namesake": "William Douglas",
+    "source_label": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Douglaston,_Queens",
+    "confidence": 0.65
+  },
+  {
+    "street": "Tillary Street",
+    "found": true,
+    "fact": "Tillary Street is named for Dr. James Tillary, a physician whose house once stood at 15 Tillary Street. The city acquired the property in the 1930s to extend the Brooklyn Bridge plaza, and the house was demolished in 1935.",
+    "namesake": "Dr. James Tillary",
+    "source_label": "Library of Congress (HABS)",
+    "source_url": "https://www.loc.gov/item/ny0249/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Quentin Road",
+    "found": true,
+    "fact": "Quentin Road is named for Quentin Roosevelt, the youngest son of President Theodore Roosevelt and a World War I aviator killed in action over France on Bastille Day 1918. The street was previously called Avenue Q before Flatbush civic leaders pushed to rename it in his honor.",
+    "namesake": "Quentin Roosevelt",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2019/02/the-quentin-road-story/",
+    "confidence": 0.85
+  },
+  {
+    "street": "Hook Creek Boulevard",
+    "found": true,
+    "fact": "Hook Creek Boulevard is named for Hook Creek, the waterway that runs roughly alongside it from Rosedale south toward Jamaica Bay. The creek's name is thought to trace back to a colonial era term used for the nearby Valley Stream settlement.",
+    "namesake": "Hook Creek",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2005/10/rosedale-queens/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Foch Boulevard",
+    "found": true,
+    "fact": "Foch Boulevard is named for Ferdinand Foch, the French Marshal who served as Supreme Allied Commander during World War I. The road, running between South Ozone Park and South Jamaica, was completed and dedicated in his honor in 1919.",
+    "namesake": "Ferdinand Foch",
+    "source_label": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_streets_named_after_Ferdinand_Foch",
+    "confidence": 0.75
+  },
+  {
+    "street": "Bayside",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Food Center Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bloomingdale Road",
+    "found": true,
+    "fact": "Bloomingdale Road takes its name from Bloemendaal, Dutch for vale of flowers, a village near Haarlem in the Netherlands. Dutch settlers applied the name to this part of Staten Island, and it later carried over to the road and to Bloomingdale Park.",
+    "namesake": "Bloemendaal, Netherlands",
+    "source_label": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Bloomingdale_Road",
+    "confidence": 0.65
+  },
+  {
+    "street": "Morris Park Avenue",
+    "found": true,
+    "fact": "Morris Park Avenue is named for John A. Morris, who opened the Morris Park Racecourse on the site in 1889 and named it for himself, not for the earlier colonial Morris family of nearby Morrisania. The neighborhood grid that replaced the racetrack still echoes its elliptical shape.",
+    "namesake": "John A. Morris",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2006/08/morris-park-bronx/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Lewis Avenue",
+    "found": true,
+    "fact": "Lewis Avenue is named for Morgan Lewis, a Revolutionary War and War of 1812 veteran who served as New York Attorney General, a State Supreme Court justice, and Governor of New York. City planners laying out the Bedford-Stuyvesant grid named the street for him alongside fellow governors Marcy and Tompkins.",
+    "namesake": "Morgan Lewis",
+    "source_label": "Brownstoner",
+    "source_url": "https://www.brownstoner.com/history/bed-stuy-brooklyn-name-origins/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Shea Road",
+    "found": true,
+    "fact": "Shea Road is named for William Shea, the attorney who led the effort to bring National League baseball back to New York after the Dodgers and Giants left for California in 1957. His campaign helped bring the Mets to the site, where Shea Stadium stood from 1964 to 2008.",
+    "namesake": "William Shea",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2023/07/shea-on-the-map/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Plumb Beach Avenue",
+    "found": true,
+    "fact": "Plumb Beach Avenue is named for Plumb Beach, itself named for the wild beach plum trees that once grew across its dunes. The area appeared on maps as Plumb Island as early as 1779, before landfill connected it to the rest of Brooklyn in the late 1930s.",
+    "namesake": "beach plums of Plumb Beach",
+    "source_label": "The Rockaway Times",
+    "source_url": "https://rockawaytimes.com/whats-in-a-name-plumb-beach/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Meadow Lake Drive",
+    "found": true,
+    "fact": "Meadow Lake Drive is named for Meadow Lake, the largest lake in New York City, created by Parks Commissioner Robert Moses for the 1939 World's Fair. The lake was originally called Fountain Lake and briefly Liberty Lake before settling on its current name.",
+    "namesake": "Meadow Lake",
+    "source_label": "NYC Parks",
+    "source_url": "https://www.nycgovparks.org/parks/flushing-meadows-corona-park/history",
+    "confidence": 0.55
+  },
+  {
+    "street": "Conner Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Delancey St South",
+    "found": true,
+    "fact": "Delancey Street South is named, like Delancey Street itself, for James De Lancey, the colonial Lieutenant Governor and Chief Justice of New York whose family farm once covered much of the Lower East Side. The De Lanceys backed the British during the Revolution and lost the estate, but their name stayed on the streets laid out through it after 1803.",
+    "namesake": "James De Lancey",
+    "source_label": "StreetEasy",
+    "source_url": "https://streeteasy.com/blog/history-houston-delancy-canal-streets/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Valentine Avenue",
+    "found": true,
+    "fact": "Valentine Avenue is named for the Valentine family, prominent 18th century Bronx landholders. Family member Isaac Valentine built the Valentine-Varian House in 1758, the borough's second oldest surviving house, and the avenue was later nicknamed Lovers' Lane, likely a coincidental play on the family name.",
+    "namesake": "Valentine family",
+    "source_label": "Wikipedia",
+    "source_url": "https://en.wikipedia.org/wiki/Valentine%E2%80%93Varian_House",
+    "confidence": 0.6
+  },
+  {
+    "street": "Stuyvesant Avenue",
+    "found": true,
+    "fact": "Stuyvesant Avenue is named for Peter Stuyvesant, the last Dutch Director General of New Netherland, whose family owned extensive land across Manhattan and Brooklyn. The nearby Stuyvesant Heights section of Bedford-Stuyvesant took his name in local usage by the 1890s.",
+    "namesake": "Peter Stuyvesant",
+    "source_label": "Brownstoner",
+    "source_url": "https://www.brownstoner.com/history/bed-stuy-brooklyn-name-origins/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Penelope Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Palisade Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Foster Avenue",
+    "found": true,
+    "fact": "Foster Avenue is named for Charles Foster, a trustee of the United Freemen's Association that developed the village of Greenfield, later known as Parkville. The section east of Flatbush Avenue, once Avenue E, was renamed Foster Avenue by the Common Council in 1901.",
+    "namesake": "Charles Foster",
+    "source_label": "Forgotten New York",
+    "source_url": "https://forgotten-ny.com/2020/06/brooklyn-a-to-z/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Neptune Avenue",
+    "found": true,
+    "fact": "Neptune Avenue is named for Neptune, the Roman god of the sea, one of three mythologically themed Coney Island thoroughfares alongside Surf Avenue and Mermaid Avenue. The trio's names reflect Coney Island's identity as a seaside resort.",
+    "namesake": "Neptune (Roman god of the sea)",
+    "source_label": "Coney Island History Project",
+    "source_url": "https://www.coneyislandhistory.org/places/neptune-avenue",
+    "confidence": 0.65
+  },
+  {
+    "street": "Decatur Street",
+    "found": true,
+    "fact": "Decatur Street is named for Stephen Decatur, the American naval commodore celebrated as a hero of the Barbary Wars and the War of 1812. The street was laid out before 1835 and runs from Fulton Street in Brooklyn toward the Queens border.",
+    "namesake": "Stephen Decatur",
+    "source_label": "DNAinfo",
+    "source_url": "https://www.dnainfo.com/new-york/places/decatur-street/",
+    "confidence": 0.65
+  }
+]

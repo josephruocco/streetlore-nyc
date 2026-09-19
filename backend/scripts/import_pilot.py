@@ -5,7 +5,7 @@ more borough files land. Only imports found facts at/above a confidence floor.
 import csv, glob, json, os, re, sys
 from app.db import execute, fetch_all
 
-SCRATCH = "/private/tmp/claude-501/-Users-josephruocco-nyc-street-history/d62e9153-f6e2-4fcd-a66c-687eef548756/scratchpad"
+HARVEST = "data/harvest"   # in-repo, durable across session restarts
 CSV = "data/facts_seed.csv"
 MIN_CONF = 0.6
 
@@ -26,7 +26,7 @@ def clean(s):
 
 def main():
     rows = []
-    for path in sorted(glob.glob(f"{SCRATCH}/pilot_*.json")):
+    for path in sorted(glob.glob(f"{HARVEST}/*.json")):
         try:
             data = json.load(open(path))
         except Exception as e:

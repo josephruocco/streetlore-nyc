@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Cross Island Parkway",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Washington Avenue",
+    "found": true,
+    "fact": "George Washington, the nation's first president, is the namesake of this Bronx avenue, one of many New York City streets renamed in his honor after his death in 1799.",
+    "namesake": "George Washington",
+    "source_label": "Forgotten New York, \"All the Washingtons (Streets)\"",
+    "source_url": "https://forgotten-ny.com/2020/02/all-the-washingtons-streets/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Shore Front Parkway",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "South Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue N",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue V",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Stanley Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Metcalf Avenue",
+    "found": true,
+    "fact": "Charles and Hester Metcalf, a family that owned land near the Bronx River in the 1840s, gave their name to Metcalf Avenue as well as the adjacent Metcalf Playground.",
+    "namesake": "Charles and Hester Metcalf",
+    "source_label": "NYC Parks, Bronx River Parkway Highlights (Metcalf Playground)",
+    "source_url": "https://www.nycgovparks.org/parks/X004/highlights/11640",
+    "confidence": 0.7
+  },
+  {
+    "street": "Burke Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Center Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Avenue P",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "State Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Wortman Avenue",
+    "found": true,
+    "fact": "John S. Wortman, a blacksmith and landowner in the old Town of New Lots whose shop stood near New Lots Road and Van Siclen Avenue, is the namesake of this East New York street.",
+    "namesake": "John S. Wortman",
+    "source_label": "NYC Housing Authority, Pennsylvania Ave-Wortman Ave history sheet",
+    "source_url": "https://www.nyc.gov/assets/nycha/downloads/pdf/Pennsylvania%20Ave-Wortman%20Ave.pdf",
+    "confidence": 0.55
+  },
+  {
+    "street": "Laurel Hill Boulevard",
+    "found": true,
+    "fact": "Laurel Hill, a Queens neighborhood that has since disappeared from the map near Calvary Cemetery and Newtown Creek, is the namesake of this boulevard, first labeled Laurel Hill Boulevard by 1909.",
+    "namesake": "Laurel Hill (former Queens neighborhood)",
+    "source_label": "Forgotten New York, \"Laurel Hill Boulevard, Queens\"",
+    "source_url": "https://forgotten-ny.com/2020/08/laurel-hill-boulevard-queens/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Hollis Avenue",
+    "found": true,
+    "fact": "Hollis, New Hampshire, the hometown of developer Frederick Dunton, is the namesake behind this avenue; Dunton named the surrounding Queens neighborhood after his birthplace when he began developing it in 1884.",
+    "namesake": "Hollis, New Hampshire",
+    "source_label": "The Bowery Boys, \"Run DMC and the Revolution: Historic Hollis, Queens\"",
+    "source_url": "https://www.boweryboyshistory.com/2009/04/run-dmc-and-revolutionary-war-historic.html",
+    "confidence": 0.6
+  },
+  {
+    "street": "Nelson Avenue",
+    "found": true,
+    "fact": "A local landowning family named Nelson is the likely namesake of this Highbridge avenue, according to New York City Parks Department records for the adjacent Nelson Playground, though the exact family history is not well documented.",
+    "namesake": "local Nelson family (unconfirmed)",
+    "source_label": "NYC Parks, Nelson Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/nelson-playground/history",
+    "confidence": 0.4
+  },
+  {
+    "street": "West Fordham Road",
+    "found": true,
+    "fact": "John Archer, the Dutch settler who anglicized his name and founded the manor of Fordham in 1666, is the source of this road's name, which may reference a shallow river crossing, or ford, or possibly a 15th century English priest named John Fordham.",
+    "namesake": "John Archer (founder of Fordham)",
+    "source_label": "Wikipedia, \"Fordham, Bronx\"",
+    "source_url": "https://en.wikipedia.org/wiki/Fordham,_Bronx",
+    "confidence": 0.55
+  },
+  {
+    "street": "Warren Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Park Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Veterans Road East",
+    "found": true,
+    "fact": "American military veterans are honored in this road's name, given to the western end of the former Drumgoole Boulevard after the Drumgoole name was reassigned to the nearby Korean War Veterans Parkway service roads.",
+    "namesake": "American military veterans",
+    "source_label": "Forgotten New York, \"Southern Staten Island: Richmond Valley, Charleston, Kreischerville, Part 2\"",
+    "source_url": "https://forgotten-ny.com/2017/01/southern-staten-island-richmond-valley-charleston-kreischerville-part-2/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Caswell Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Breezy Point Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "John Finley Walk",
+    "found": true,
+    "fact": "John H. Finley, a City College of New York president and later New York Times associate editor famed for walking the entire perimeter of Manhattan, was honored with this East River esplanade's name when it was dedicated in July 1942.",
+    "namesake": "John H. Finley",
+    "source_label": "NYC Parks, Carl Schurz Park Monuments (John Finley Walk)",
+    "source_url": "https://www.nycgovparks.org/parks/carl-schurz-park/monuments/479",
+    "confidence": 0.85
+  },
+  {
+    "street": "Tinton Avenue",
+    "found": true,
+    "fact": "Tintern, the Welsh village that was the ancestral home of the Bronx's pioneering Morris family, is the namesake of Tinton Avenue, whose street signs were reportedly misspelled with an extra letter soon after installation.",
+    "namesake": "Tintern, Wales",
+    "source_label": "Forgotten New York, \"Westchester Avenue Part 2\"",
+    "source_url": "https://forgotten-ny.com/2011/04/westchester-avenue-part-2/",
+    "confidence": 0.55
+  },
+  {
+    "street": "West Houston Street",
+    "found": true,
+    "fact": "William Houstoun, a Georgia delegate to the Continental Congress and the Constitutional Convention, is the namesake of Houston Street; his father in law Nicholas Bayard III named the street in his honor around 1788 after subdividing his family's farmland.",
+    "namesake": "William Houstoun",
+    "source_label": "The Real Deal, \"Why your out of town friends can't pronounce Houston\"",
+    "source_url": "https://therealdeal.com/new-york/2017/02/12/why-your-out-of-town-friends-cant-pronounce-houston/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Bard Avenue",
+    "found": true,
+    "fact": "William Bard, a lawyer and life insurance pioneer who built a large house at what is now Bard Avenue and Delafield Place, is the namesake of this West New Brighton street.",
+    "namesake": "William Bard",
+    "source_label": "Wikipedia, \"Elliottville, Staten Island\"",
+    "source_url": "https://en.wikipedia.org/wiki/Elliottville,_Staten_Island",
+    "confidence": 0.65
+  },
+  {
+    "street": "Jericho Turnpike",
+    "found": true,
+    "fact": "Jericho, the Nassau County hamlet the road once led to and which Quakers purchased from the Matinecock in 1692, is the namesake of this turnpike; its Queens stretch through Floral Park and Bellerose was renamed from Jamaica Avenue to match its Long Island extension.",
+    "namesake": "Jericho, New York",
+    "source_label": "Forgotten New York, \"Jericho Turnpike, Floral Park\"",
+    "source_url": "https://forgotten-ny.com/2021/12/jericho-turnpike-floral-park/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Marine Terminal Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Intervale Avenue",
+    "found": true,
+    "fact": "Sacrahong Brook, a stream that once ran in the open along the low ground this Bronx avenue still follows, is the likely namesake of Intervale Avenue, an intervale being an old term for lowland between hills.",
+    "namesake": "Sacrahong Brook",
+    "source_label": "Forgotten New York, \"Longwood, Bronx\"",
+    "source_url": "https://forgotten-ny.com/2007/06/longwood-bronx/",
+    "confidence": 0.45
+  },
+  {
+    "street": "East Broadway",
+    "found": true,
+    "fact": "Herman Rutgers, the brewer whose farmland this road crossed, gave his name to its earliest known identity as Harman Street around 1732; it later became Chatham Street before being renamed East Broadway around 1831 to ease confusion with Broadway itself.",
+    "namesake": "Herman Rutgers",
+    "source_label": "Wikipedia, \"East Broadway (Manhattan)\"",
+    "source_url": "https://en.wikipedia.org/wiki/East_Broadway_(Manhattan)",
+    "confidence": 0.55
+  }
+]

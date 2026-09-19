@@ -1,0 +1,54 @@
+You are an NYC street-name historian and a STRICT fact-checker. For each NYC street in the list below, find the origin of its NAME (the person, place, or thing it is named for).
+
+CRITICAL RULES:
+1. USE WEB BROWSING. Do not answer from memory. Cite a real page you actually opened. If you cannot find a reliable source for a street's name origin, set "found": false and leave "fact" empty. NEVER guess or infer a plausible namesake. Knowing when to say "unknown" is half the value.
+2. Watch for traps: many NYC streets honor obscure local figures, not the famous person of the same name (e.g. a "Sheridan" street may be a local public-works commissioner, not General Philip Sheridan). Verify THIS street.
+3. Write ONE fact, 1 to 3 sentences, that LEADS with the namesake/origin.
+4. STYLE: no em dashes or en dashes anywhere. No stylistic hyphens (write "19th century" and "well known" with a space). Hyphens only inside proper nouns like Bedford-Stuyvesant.
+5. Trusted sources: Wikipedia, NYC Parks (nycgovparks.org), Forgotten New York, Bowery Boys, Landmarks Preservation Commission reports, Brownstoner.
+
+OUTPUT: a JSON array ONLY (no prose before or after). One object per street:
+{"street":"<exactly as given>","found":true,"fact":"...","namesake":"...","source_label":"...","source_url":"...","confidence":0.0}
+confidence 0.0 to 1.0 = how solid the source is (0.6+ counts as usable).
+
+STREETS:
+Grand Central Parkway
+Belt Parkway
+Cross Island Parkway
+Union Turnpike
+West Street
+Shore Parkway
+Southern Boulevard
+Randall Avenue
+Braddock Avenue
+Willow Road East
+Avenue U
+Woodrow Road
+Shore Front Parkway
+Mosholu Parkway
+Webster Avenue
+Seaview Avenue
+Avenue W
+Avenue L
+Avenue M
+Avenue T
+Avenue K
+Baychester Avenue
+Borden Avenue
+Rosedale Avenue
+East Drive
+Rikers Island Access Road
+Exterior Street
+University Avenue
+Morris Avenue
+West Drive
+Avenue N
+East River Esplanade
+East Gun Hill Road
+South Street
+Bronx River Avenue
+Ft Hamilton
+Avenue V
+Riverdale Avenue
+Fieldston Road
+Bronx Boulevard
