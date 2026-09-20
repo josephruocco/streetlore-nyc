@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Randall Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Webster Avenue",
+    "found": true,
+    "fact": "Webster Avenue is most likely named not for the famous statesman Daniel Webster but for one of two local men involved in extending the road in the late 19th century: Joseph Outen Bogart Webster, the surveyor who laid out the extension, or Albert L. Webster, an engineer with the city's Department of Public Works at the time.",
+    "namesake": "Joseph Outen Bogart Webster or Albert L. Webster",
+    "source_label": "Wikipedia: Webster Avenue",
+    "source_url": "https://en.wikipedia.org/wiki/Webster_Avenue",
+    "confidence": 0.6
+  },
+  {
+    "street": "Borden Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Cooper Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Winchester Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "St Anns Avenue",
+    "found": true,
+    "fact": "St Anns Avenue is named for St. Ann's Church, built in 1841 by Gouverneur Morris Jr. as a memorial to his mother, Ann Cary Randolph Morris. The church, still standing in Mott Haven, is the oldest existing church building in the Bronx.",
+    "namesake": "Ann Cary Randolph Morris (via St. Ann's Church)",
+    "source_label": "Wikipedia: St. Ann's Episcopal Church (Bronx)",
+    "source_url": "https://en.wikipedia.org/wiki/St._Ann%27s_Episcopal_Church_(Bronx)",
+    "confidence": 0.85
+  },
+  {
+    "street": "Bartow Avenue",
+    "found": true,
+    "fact": "Bartow Avenue is named for Robert Bartow, a descendant of the Pell family who reacquired the ancestral property near Pelham Bay in 1836 and built the Bartow Mansion there with his wife, Maria Lorillard. The Bartow family held the estate until the city purchased it in 1888 to form Pelham Bay Park.",
+    "namesake": "Robert Bartow",
+    "source_label": "Bartow-Pell Mansion Museum: History",
+    "source_url": "https://www.bartowpellmansionmuseum.org/about/history/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Bronxwood Avenue",
+    "found": true,
+    "fact": "Bronxwood Avenue takes its name from an early 20th century real estate coinage combining The Bronx, itself named for 17th century settler Jonas Bronck, with wood, a reference to the wooded parkland along the nearby Bronx River that developers used to market the area to prospective residents.",
+    "namesake": "Jonas Bronck (via the borough name The Bronx)",
+    "source_label": "CityNeighborhoods.NYC: Bronxwood",
+    "source_url": "https://www.cityneighborhoods.nyc/bronxwood",
+    "confidence": 0.55
+  },
+  {
+    "street": "Austin Street",
+    "found": true,
+    "fact": "Austin Street is named for Austin Corbin, a 19th century real estate developer and president of the Long Island Rail Road from 1880 to 1896, whose company laid out the road through what became Forest Hills.",
+    "namesake": "Austin Corbin",
+    "source_label": "Wikipedia: Austin Street",
+    "source_url": "https://en.wikipedia.org/wiki/Austin_Street",
+    "confidence": 0.75
+  },
+  {
+    "street": "Paulding Avenue",
+    "found": true,
+    "fact": "Paulding Avenue is named for William Paulding Jr., a two time mayor of New York City in the 1820s and later a U.S. representative, whose family also gave its name to nearby Hone and other Pelham Parkway area streets named for early NYC mayors.",
+    "namesake": "William Paulding Jr.",
+    "source_label": "The New York Institute for Special Education: History of Our Local Streets",
+    "source_url": "https://www.nyise.org/apps/pages/index.jsp?uREC_ID=434162&type=d&pREC_ID=943543",
+    "confidence": 0.7
+  },
+  {
+    "street": "Henderson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "West Farms Road",
+    "found": true,
+    "fact": "West Farms Road takes its name from the West Farms section of the Bronx, granted by patent in 1666 to Edward Jessup and John Richardson as the westernmost farmland of the old Town of Westchester, lying west of the Bronx River.",
+    "namesake": "Edward Jessup and John Richardson (West Farms patent)",
+    "source_label": "Wikipedia: West Farms, Bronx",
+    "source_url": "https://en.wikipedia.org/wiki/West_Farms,_Bronx",
+    "confidence": 0.65
+  },
+  {
+    "street": "York Avenue",
+    "found": true,
+    "fact": "York Avenue is named for Sergeant Alvin York, the World War I Medal of Honor recipient celebrated for single handedly killing over 20 German soldiers and capturing 132 more during the Meuse Argonne offensive. Avenue A north of 59th Street was renamed in his honor in 1928.",
+    "namesake": "Sergeant Alvin York",
+    "source_label": "Wikipedia: York Avenue (Manhattan)",
+    "source_url": "https://en.wikipedia.org/wiki/York_Avenue_(Manhattan)",
+    "confidence": 0.9
+  },
+  {
+    "street": "Wyckoff Avenue",
+    "found": true,
+    "fact": "Wyckoff Avenue is named for the Wyckoff family, Dutch settlers descended from Pieter Claesen Wyckoff, who arrived in Brooklyn as an indentured servant in 1637 and later became a large landowner. His 1652 farmhouse still stands in East Flatbush as the Wyckoff House Museum.",
+    "namesake": "Pieter Claesen Wyckoff",
+    "source_label": "Forgotten New York: Wyckoff Avenue",
+    "source_url": "https://forgotten-ny.com/2008/05/wyckoff-avenue-where-you-must-paint-fair/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Remsen Avenue",
+    "found": true,
+    "fact": "Remsen Avenue is named for the Remsen family, Dutch settlers descended from Rem Jansen Vanderbeek, whose 15 children adopted the surname Remsen and became prominent landowners across Flatlands and Flatbush in the 17th and 18th centuries.",
+    "namesake": "Remsen family (descendants of Rem Jansen Vanderbeek)",
+    "source_label": "CityNeighborhoods.NYC: Remsen Village",
+    "source_url": "https://www.cityneighborhoods.nyc/remsen-village",
+    "confidence": 0.6
+  },
+  {
+    "street": "Nagle Avenue",
+    "found": true,
+    "fact": "Nagle Avenue is named for Jan Nagle, who together with partner Jan Dyckman bought the farmland of the Inwood area in 1677. The Nagle family farmed the land for more than two centuries, and their homestead near the Harlem River was known as the Century House.",
+    "namesake": "Jan Nagle",
+    "source_label": "My Inwood: Inwood Street Names",
+    "source_url": "https://myinwood.net/inwood-street-names/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Holland Avenue",
+    "found": true,
+    "fact": "Holland Avenue is named for Edward Holland, a former mayor of New York City, one of several streets in the Pelham Parkway area named for early NYC mayors alongside Lurting, Cruger, Matthews, Paulding, Hone and Radcliff.",
+    "namesake": "Edward Holland",
+    "source_label": "The New York Institute for Special Education: History of Our Local Streets",
+    "source_url": "https://www.nyise.org/apps/pages/index.jsp?uREC_ID=434162&type=d&pREC_ID=943543",
+    "confidence": 0.55
+  },
+  {
+    "street": "Pennyfield Avenue",
+    "found": true,
+    "fact": "Pennyfield Avenue is named for a colonial era tract that, according to local tradition, was purchased from the Siwanoy for a single English penny, the coin's metal reportedly being what the sellers wanted. The road dates to the 1600s and is mentioned in records as early as 1686.",
+    "namesake": "colonial Pennyfield tract (Siwanoy land purchase legend)",
+    "source_label": "Forgotten New York: Pennyfield Avenue, Throggs Neck",
+    "source_url": "https://forgotten-ny.com/2026/05/pennyfield-avenue-throggs-neck/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Schenck Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Georgia Avenue",
+    "found": true,
+    "fact": "Georgia Avenue is named for the U.S. state of Georgia, one of several southern state names (alongside Alabama and Louisiana) given to a cluster of East New York streets in a thematic naming scheme distinct from the area's other, Pitkin era avenues.",
+    "namesake": "the State of Georgia",
+    "source_label": "Forgotten New York: States",
+    "source_url": "https://forgotten-ny.com/2022/02/states-of-the-city/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Rockaway Point Boulevard",
+    "found": true,
+    "fact": "Rockaway Point Boulevard is named for the Rockaway Point section of the Rockaway peninsula, itself named for a Native American Lenape place name for the area, part of the Breezy Point community alongside Roxbury.",
+    "namesake": "Rockaway Point (Lenape place name)",
+    "source_label": "Wikipedia: Far Rockaway",
+    "source_url": "https://en.wikipedia.org/wiki/Far_Rockaway",
+    "confidence": 0.55
+  },
+  {
+    "street": "Strickland Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Port Richmond Avenue",
+    "found": true,
+    "fact": "Port Richmond Avenue is named for the Port Richmond neighborhood, whose name was given by Dr. James Brownlee of the Dutch Reformed Church and which references Staten Island's status as the borough and former county of Richmond, with the ferry landing there formally named Port Richmond in 1835.",
+    "namesake": "Port Richmond (Staten Island / Richmond County)",
+    "source_label": "OldStatenIsland.org: Port Richmond",
+    "source_url": "https://www.oldstatenisland.org/port-richmond.html",
+    "confidence": 0.6
+  },
+  {
+    "street": "Mott Avenue",
+    "found": true,
+    "fact": "Mott Avenue is named for landowner Benjamin Mott, who donated property in Far Rockaway for the original Long Island Rail Road terminal there.",
+    "namesake": "Benjamin Mott",
+    "source_label": "Forgotten New York: A Walk in Far Rockaway",
+    "source_url": "https://forgotten-ny.com/2013/06/a-walk-in-far-rockaway-queens/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Miles Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Snyder Avenue",
+    "found": true,
+    "fact": "Snyder Avenue was originally known as Grant Street and was renamed to honor a prominent Dutch landowning family of Flatbush named Snyder, whose farming property in the area dated to the 1750s.",
+    "namesake": "Snyder family",
+    "source_label": "Forgotten New York: Snyder Avenue, Flatbush",
+    "source_url": "https://forgotten-ny.com/2009/07/snyder-avenue-flatbush/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Astoria Boulevard North",
+    "found": true,
+    "fact": "Astoria Boulevard North is part of Astoria Boulevard, named for fur trading tycoon John Jacob Astor, whose namesake village of Astoria was renamed for him in 1839 in a failed bid to secure his investment, though he never set foot there.",
+    "namesake": "John Jacob Astor",
+    "source_label": "Wikipedia: Astoria Boulevard",
+    "source_url": "https://en.wikipedia.org/wiki/Astoria_Boulevard",
+    "confidence": 0.65
+  },
+  {
+    "street": "Eastchester Road",
+    "found": true,
+    "fact": "Eastchester Road is named for the town of Eastchester, organized in 1788 and named for Chester, England, whose territory once stretched from the Bronx into what is now Westchester County before the Bronx portion was annexed by New York City in 1895.",
+    "namesake": "Chester, England (via the Town of Eastchester)",
+    "source_label": "Britannica: Eastchester",
+    "source_url": "https://www.britannica.com/place/Eastchester",
+    "confidence": 0.55
+  },
+  {
+    "street": "Watson Avenue",
+    "found": true,
+    "fact": "Watson Avenue is named for William Watson, a Bronx landowner born in Lurgan, Ireland, whose 225 acre Wilmount estate near the Bronx River and Westchester Avenue included the wooded tract later known as Watson's Woods.",
+    "namesake": "William Watson",
+    "source_label": "The Neighborhoods: Soundview, the Bronx",
+    "source_url": "https://theneighborhoods.substack.com/p/soundview-the-bronx",
+    "confidence": 0.55
+  },
+  {
+    "street": "Beach Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  }
+]

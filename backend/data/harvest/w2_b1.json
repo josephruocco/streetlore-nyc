@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Grand Central Parkway",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "West Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Rosedale Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Surf Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Fieldston Road",
+    "found": true,
+    "fact": "Fieldston Road takes its name from Fieldston, the estate of Major Joseph Delafield, a lawyer and War of 1812 veteran who owned hundreds of acres between the Hudson River and Broadway starting in 1829. The Delafield family subdivided the land into the private Fieldston development beginning in 1909, and the estate name carried over to its streets.",
+    "namesake": "Major Joseph Delafield and his Fieldston estate",
+    "source_label": "Brownstoner, Fieldston, a Suburb In the City and Yet Not of It",
+    "source_url": "https://www.brownstoner.com/upstate/fieldston-bronx-history-architecture/",
+    "confidence": 0.65
+  },
+  {
+    "street": "South Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Vandalia Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Yellowstone Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Barnes Avenue",
+    "found": true,
+    "fact": "Barnes Avenue takes its name from Samuel and Susan Barnes, who farmed land along the old Kingsbridge Road in the Williamsbridge area during the 1840s. The Barnes name ran deep in the area's colonial history, with a 1692 Westchester deed also recording a Captain William Barnes as high sheriff of the borough town of Westchester.",
+    "namesake": "Samuel and Susan Barnes, 1840s Williamsbridge farmers",
+    "source_label": "The Bronx Chronicle, Bronx Street Origins Of The Day: Barnes Avenue",
+    "source_url": "https://thebronxchronicle.com/2014/08/17/bronx-street-origins-of-the-day-barnes-avenue/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Bay View Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Williams Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bryant Avenue",
+    "found": true,
+    "fact": "Bryant Avenue is most likely named for William Cullen Bryant, the 19th century poet, journalist, and Republican Party organizer who is also the namesake of Manhattan's Bryant Park. Nearby streets honoring fellow poets Whittier and Longfellow support the connection, though the avenue carried earlier names including Walker Street and Oostdorp Street.",
+    "namesake": "William Cullen Bryant, 19th century poet and journalist",
+    "source_label": "NYC Parks, Bryant Triangle Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/bryant-triangle/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Willets Point Boulevard",
+    "found": true,
+    "fact": "Willets Point Boulevard takes its name from Charles Willets, a Flushing area nurseryman who acquired the peninsula land in 1829, extending a Queens family name that traced back to English settler Richard Willets in 1643. The federal government later bought Willets family land in 1857 to build Fort Totten, originally called Fort at Willets Point.",
+    "namesake": "Charles Willets, 1829 nurseryman landowner",
+    "source_label": "QNS, A trip down memory lane: Revisiting the rich history of Flushing, Willets Point",
+    "source_url": "https://qns.com/2023/07/flushing-willets-point-history/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Story Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Morningside Avenue",
+    "found": true,
+    "fact": "Morningside Avenue takes its name from Morningside Park, so called because the park sits on the eastern, sun facing side of the Manhattan schist cliff separating Morningside Heights from the Harlem plain. The city adopted the name Morning Side Park in 1870, and it later gave the surrounding neighborhood, and this avenue, their name too.",
+    "namesake": "the morning facing side of the Morningside Heights cliff",
+    "source_label": "NYC Parks, Morningside Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/morningside-park/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Meridian Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Lily Pond Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Midland Parkway",
+    "found": true,
+    "fact": "Midland Parkway takes its name from England's Midlands region, part of a British themed street naming scheme the Jamaica Estates Company used when it developed this Tudor style Queens neighborhood starting in 1907. Nearby streets such as Avon Road, Kent Street, and Wexford Terrace follow the same English naming pattern.",
+    "namesake": "England's Midlands region",
+    "source_label": "Brick Underground, 5 things you didn't know about Jamaica Estates",
+    "source_url": "https://www.brickunderground.com/blog/2015/11/jamaica_estates_5_facts_this_suburban_sanctuary_flies_under_the_radar_in_queens",
+    "confidence": 0.55
+  },
+  {
+    "street": "Loop Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Forest Hill Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Arnow Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Seward Avenue",
+    "found": true,
+    "fact": "Seward Avenue takes its name from Samuel S. Seward, an early 19th century Orange County, New York judge and the father of Lincoln era Secretary of State William H. Seward. The more famous William Seward is often assumed to be the honoree, but Bronx historians attribute the street to his father instead.",
+    "namesake": "Samuel S. Seward, Orange County judge and father of William H. Seward",
+    "source_label": "Untapped New York, 10 NYC Neighborhoods with Thematic Street Names",
+    "source_url": "https://untappedcities.com/2016/11/16/history-of-streets-10-nyc-neighborhoods-with-thematic-street-names/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Palmetto Street",
+    "found": true,
+    "fact": "Palmetto Street takes its name from the palmetto tree, one of several trees and vines that surveyor Watson Bowron used to name streets in his 1850s Bowronville subdivision of Bushwick, alongside Linden, Woodbine, and Ivy Streets. Bowron chose names that did not duplicate any existing Brooklyn street of the era.",
+    "namesake": "the palmetto tree, part of Watson Bowron's 1850s tree named street scheme",
+    "source_label": "Forgotten New York, Palmetto Street under the el, Ridgewood",
+    "source_url": "https://forgotten-ny.com/2009/08/palmetto-street-under-the-el-ridgewood/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Jewett Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Manhattan College Parkway",
+    "found": true,
+    "fact": "Manhattan College Parkway takes its name from Manhattan College, the school located along its route in the Riverdale section of the Bronx. The road, formerly called Spuyten Duyvil Parkway, was renamed in 1953 to mark the college's 100th anniversary.",
+    "namesake": "Manhattan College",
+    "source_label": "Riverdale Press, Riverdale street now honors both Manhattan College and Manhattan University",
+    "source_url": "https://www.riverdalepress.com/stories/riverdale-street-now-honors-both-manhattan-college-and-manhattan-university,243997",
+    "confidence": 0.8
+  },
+  {
+    "street": "Tillotson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Crotona Avenue",
+    "found": true,
+    "fact": "Crotona Avenue takes its name from Croton, an ancient Greek colony in southern Italy famed for its scholars and Olympic athletes. Parks officials chose the classical name for the adjoining park in the 1880s after a naming dispute with the Bathgate family, who had owned the land as Bathgate Woods.",
+    "namesake": "Croton, the ancient Greek colony",
+    "source_label": "Wikipedia, Crotona Park",
+    "source_url": "https://en.wikipedia.org/wiki/Crotona_Park",
+    "confidence": 0.6
+  },
+  {
+    "street": "Bedford Park Boulevard",
+    "found": true,
+    "fact": "Bedford Park Boulevard takes its name from Edward Thomas Bedford, president of the Bank of the State of New York and an associate of Jerome Park racetrack organizer Leonard Jerome. The road, originally East 200th Street, was renamed for Bedford in 1906 and went on to lend its name to the surrounding Bronx neighborhood.",
+    "namesake": "Edward Thomas Bedford, bank president",
+    "source_label": "Forgotten New York, A bit of Bedford Park",
+    "source_url": "https://forgotten-ny.com/2008/05/a-bit-of-bedford-park/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Watchogue Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "West Tremont Avenue",
+    "found": true,
+    "fact": "West Tremont Avenue takes its name from Tremont, the Bronx section christened in the 1840s by postmaster Hiram Tarbox using the Latin tres montes, or three hills, for Mount Eden, Mount Hope, and Fairmount. The name echoes Boston's Tremont Street, coined for a similar three hill peninsula.",
+    "namesake": "Hiram Tarbox's tres montes naming for three Bronx hills",
+    "source_label": "Forgotten New York, Walking Tremont Avenue",
+    "source_url": "https://forgotten-ny.com/2018/06/walking-tremont-avenue/",
+    "confidence": 0.65
+  }
+]

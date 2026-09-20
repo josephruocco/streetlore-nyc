@@ -1,0 +1,272 @@
+[
+  {
+    "street": "West Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Braddock Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Baychester Avenue",
+    "found": true,
+    "fact": "Baychester Avenue takes its name from the Baychester neighborhood, a 20th century blend of Bay for nearby Eastchester Bay and Chester for the colonial Town of Eastchester that once encompassed the area. The name was meant to evoke both the waterfront and the district's historic roots even though the neighborhood itself is landlocked.",
+    "namesake": "Eastchester Bay and the colonial Town of Eastchester",
+    "source_label": "UrbanAreas.net, Baychester, The Bronx (History)",
+    "source_url": "https://urbanareas.net/info/resources/neighborhoods-bronx/baychester-bronx-history/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Bronx River Avenue",
+    "found": true,
+    "fact": "Bronx River Avenue is named for the Bronx River running alongside it, which itself takes its name from Jonas Bronck, a Scandinavian settler whose 17th century homestead stood near its banks. Bronck's River gradually became known as the Bronx River, giving the borough its own name in turn.",
+    "namesake": "Jonas Bronck, via the Bronx River",
+    "source_label": "Bronx River Alliance, How the Bronx Got Its Name",
+    "source_url": "https://bronxriver.org/post/story/how-the-bronx-got-its-name",
+    "confidence": 0.55
+  },
+  {
+    "street": "Bronx Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Hempstead Avenue",
+    "found": true,
+    "fact": "Hempstead Avenue is named for the Town of Hempstead on Long Island, whose own name is disputed between Dutch and English origins. Dutch settlers pointed to Heemstede in Holland, while English colonists credited founding settler John Carman's hometown of Hemel Hempstead in England. The Queens route was long part of the Hempstead and Jamaica Plank Road before taking its current name around 1920.",
+    "namesake": "the Town of Hempstead, Long Island",
+    "source_label": "Forgotten New York, Hempstead Avenue, Queens Village",
+    "source_url": "https://forgotten-ny.com/2023/03/hempstead-avenue-queens-village/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Flatbush Avenue Extension",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Eliot Avenue",
+    "found": true,
+    "fact": "Eliot Avenue is named for Walter G. Eliot, an engineer with the Queens Topographical Bureau who was placed in temporary charge of the bureau in 1910. The road was briefly renamed 61st Avenue in the 1920s before reverting to Eliot, and it later served as the main route from Brooklyn to the 1939 World's Fair.",
+    "namesake": "Walter G. Eliot",
+    "source_label": "Juniper Park Civic Association, Happy Birthday, Eliot Avenue",
+    "source_url": "https://junipercivic.com/juniper-berry/article/happy-birthday-eliot-avenue-2",
+    "confidence": 0.7
+  },
+  {
+    "street": "Brookville Boulevard",
+    "found": true,
+    "fact": "Brookville Boulevard takes its name from Brookville, a name given to the surrounding neighborhood for the many small brooks and streams that once crisscrossed the wetlands of southeastern Queens. The road had earlier been known as Old Foster's Meadow Road, after early British settler John Foster, before being renamed in the 1920s.",
+    "namesake": "the brooks and streams of southeastern Queens",
+    "source_label": "CityNeighborhoods.NYC, Brookville",
+    "source_url": "https://www.cityneighborhoods.nyc/brookville",
+    "confidence": 0.55
+  },
+  {
+    "street": "Pacific Street",
+    "found": true,
+    "fact": "Pacific Street is named for the Pacific Ocean, one of a cluster of Brooklyn streets, including Atlantic, Baltic and Dean, given nautical and geographic names in the 19th century in what is now the Boerum Hill Historic District. Some accounts also tie the name to the Pacific Stores warehouses that once stood along the street.",
+    "namesake": "the Pacific Ocean",
+    "source_label": "Second Ave. Sagas, The Pacific St. Edition of 'What's in a Name?'",
+    "source_url": "https://secondavenuesagas.com/2012/09/05/the-pacific-st-edition-of-whats-in-a-name/",
+    "confidence": 0.5
+  },
+  {
+    "street": "Sterling Drive",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Castle Hill Avenue",
+    "found": true,
+    "fact": "Castle Hill Avenue is named for the Castle Hill section of the Bronx, where a rise in the land once held a fortified Siwanoy village that 17th century Dutch explorer Adriaen Block reportedly thought resembled a castle. An alternate local account instead credits the name to The Castle, an 18th century mansion built on the site by colonial landowner Jacobus Stryker.",
+    "namesake": "a hill resembling a castle, per explorer Adriaen Block",
+    "source_label": "CityNeighborhoods.NYC, Castle Hill",
+    "source_url": "https://cityneighborhoods.nyc/castle-hill",
+    "confidence": 0.55
+  },
+  {
+    "street": "Eastchester Road",
+    "found": true,
+    "fact": "Eastchester Road is named for the Town of Eastchester, established in 1664 when ten families from Fairfield, Connecticut bought land from English colonist Thomas Pell and drew up the Eastchester Covenant. The town took its name from Chester, England, and it survived in the Bronx after the city annexed the area in 1895.",
+    "namesake": "the Town of Eastchester",
+    "source_label": "Wikipedia, Eastchester, Bronx",
+    "source_url": "https://en.wikipedia.org/wiki/Eastchester,_Bronx",
+    "confidence": 0.65
+  },
+  {
+    "street": "Clay Avenue",
+    "found": true,
+    "fact": "Clay Avenue is believed to honor Henry Clay, the 19th century American senator and statesman. A competing local legend holds that workmen building the street across a swampy stretch of the old Zborowski estate were relieved to strike clay instead of mud, and named it in celebration.",
+    "namesake": "Henry Clay",
+    "source_label": "Historic Districts Council, Six to Celebrate, Clay Avenue, The Bronx",
+    "source_url": "https://6tocelebrate.org/neighborhood-items/clay-avenue-the-bronx/",
+    "confidence": 0.5
+  },
+  {
+    "street": "Bergen Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Soundview Avenue",
+    "found": true,
+    "fact": "Soundview Avenue takes its name from the Soundview district, so named in the early 20th century by developers marketing the lower Bronx River waterfront for its views toward Long Island Sound. The name became permanent with the creation of Soundview Park in the 1930s.",
+    "namesake": "the neighborhood's views toward Long Island Sound",
+    "source_label": "NYC Parks, Soundview Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/soundview-park/history",
+    "confidence": 0.55
+  },
+  {
+    "street": "Burns Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "East Burnside Avenue",
+    "found": true,
+    "fact": "East Burnside Avenue honors Ambrose E. Burnside, the Union Civil War general who later served as Rhode Island's governor and a United States senator. Burnside's distinctive facial hair also gave rise to the term sideburns.",
+    "namesake": "Ambrose E. Burnside",
+    "source_label": "Forgotten New York, Burnside Avenue Station, Tremont",
+    "source_url": "https://forgotten-ny.com/2017/06/burnside-avenue-station-tremont/",
+    "confidence": 0.6
+  },
+  {
+    "street": "College Avenue",
+    "found": true,
+    "fact": "College Avenue is named for New York University, whose 50 acre University Heights campus stood nearby between Sedgwick and University Avenues from 1894 to 1973. The campus, established under Chancellor Henry Mitchell MacCracken, also gave the surrounding Bronx neighborhood its University Heights name.",
+    "namesake": "New York University's University Heights campus",
+    "source_label": "Wikipedia, University Heights, Bronx",
+    "source_url": "https://en.wikipedia.org/wiki/University_Heights,_Bronx",
+    "confidence": 0.65
+  },
+  {
+    "street": "Mace Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Prospect Place",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Oak Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Richmond Hill Road",
+    "found": true,
+    "fact": "Richmond Hill Road preserves the name of the former Richmond Hill area on Staten Island's south shore, part of the broader Richmond name applied across the island for the Duke of Richmond, an English nobleman with no direct connection to the island. Staten Island became Richmond County in 1683 under early English colonial administrators, and the name spread to its roads, hills and neighborhoods.",
+    "namesake": "the Duke of Richmond",
+    "source_label": "NY1, Duke of Richmond Has Street Name Recognition",
+    "source_url": "https://ny1.com/nyc/staten-island/staten-island-week-2015/2015/04/13/duke-of-richmond-has-street-name-recognition",
+    "confidence": 0.55
+  },
+  {
+    "street": "Noble Avenue",
+    "found": true,
+    "fact": "Noble Avenue is possibly named for Robert Noble, who owned land in the area in the early 1700s before selling it to Nathaniel Underhill in 1724. The Noble name later passed to the adjoining Noble Playground, which opened in 1939 as part of the Bronx River Parkway extension.",
+    "namesake": "Robert Noble",
+    "source_label": "NYC Parks, Noble Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/noble-playground/history",
+    "confidence": 0.5
+  },
+  {
+    "street": "Thomas S Boyland Street",
+    "found": true,
+    "fact": "Thomas S Boyland Street is named for Thomas S. Boyland, a mathematics teacher who served as a New York State Assemblyman representing the 54th District until his death in 1982. The street, formerly Hopkinson Avenue, was renamed in his honor shortly after he died.",
+    "namesake": "Thomas S. Boyland",
+    "source_label": "Wikipedia, Thomas S. Boyland",
+    "source_url": "https://en.wikipedia.org/wiki/Thomas_S._Boyland",
+    "confidence": 0.8
+  },
+  {
+    "street": "Snyder Avenue",
+    "found": true,
+    "fact": "Snyder Avenue was originally called Grant Street before being renamed to honor a prominent Dutch landowning family of Flatbush. A later account identifies the honoree as John Jacob Snyder, a 19th century hardware and furniture merchant known locally as Snyder of Flatbush.",
+    "namesake": "the Snyder family of Flatbush",
+    "source_label": "Forgotten New York, Snyder Avenue, Flatbush",
+    "source_url": "https://forgotten-ny.com/2009/07/snyder-avenue-flatbush/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Ellsworth Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Lake Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Pelham Parkway North",
+    "found": true,
+    "fact": "Pelham Parkway North is named for Pelham, the manor English colonist Thomas Pell created after purchasing much of the northeast Bronx and southern Westchester from the Siwanoy in 1654. Pell named his new territory not for himself but for his old tutor, Pelham Burton.",
+    "namesake": "Thomas Pell, via his manor of Pelham",
+    "source_label": "The Neighborhoods, Pelham Bay, The Bronx",
+    "source_url": "https://theneighborhoods.substack.com/p/pelham-bay-the-bronx",
+    "confidence": 0.6
+  },
+  {
+    "street": "Netherland Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  }
+]

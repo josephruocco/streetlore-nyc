@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Southern Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Willow Road East",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Morris Avenue",
+    "found": true,
+    "fact": "Morris Avenue is named for the Morris family, who bought the land that became Morrisania in 1670 when brothers Richard and Lewis Morris arrived from Barbados as sugar planters. Their descendants included Gouverneur Morris, a framer of the U.S. Constitution, and Lewis Morris, a signer of the Declaration of Independence.",
+    "namesake": "the Morris family of Morrisania",
+    "source_label": "Forgotten New York, Morrisania, Bronx",
+    "source_url": "https://forgotten-ny.com/2011/01/morrisania-bronx/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Fort Hamilton Parkway",
+    "found": true,
+    "fact": "Fort Hamilton Parkway is named for Fort Hamilton, the Army post at its southern end, which itself honors Alexander Hamilton, the first U.S. Secretary of the Treasury. The road was known as Fort Hamilton Avenue by the mid 1800s and was renamed a parkway by the state legislature in 1892.",
+    "namesake": "Alexander Hamilton, via Fort Hamilton",
+    "source_label": "Forgotten New York, Fort Hamilton Parkway",
+    "source_url": "https://forgotten-ny.com/2010/04/fort-hamilton-parkway/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Murdock Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sterling Place",
+    "found": true,
+    "fact": "Sterling Place is named for William Alexander, known as Lord Stirling, an American major general in the Revolutionary War with ties to the defense of nearby Park Slope during the Battle of Brooklyn. The street was called Butler Street until 1873, and a clerk's spelling error turned 'Stirling' into 'Sterling' on the new signs.",
+    "namesake": "William Alexander, Lord Stirling",
+    "source_label": "Brownstoner, Walkabout: Lord Stirling's War",
+    "source_url": "https://www.brownstoner.com/history/walkabout-lord-stirling%E2%80%99s-war/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Unionport Road",
+    "found": true,
+    "fact": "Unionport Road takes its name from the Unionport Company, a 19th century real estate and transportation venture that aimed to link several small Bronx settlements along Westchester Creek with a planned ferry and road network. The name combined 'union,' for joining the farming hamlets, with 'port,' for the docks along the creek.",
+    "namesake": "the Unionport Company",
+    "source_label": "CityNeighborhoods.NYC, Unionport",
+    "source_url": "https://www.cityneighborhoods.nyc/unionport",
+    "confidence": 0.6
+  },
+  {
+    "street": "Walton Avenue",
+    "found": true,
+    "fact": "Walton Avenue is named for Mary Walton, who married Lewis Morris III, the only New Yorker to sign the Declaration of Independence, in 1749. The Walton Morris family that descended from them held large tracts of land in the colonial and post colonial Bronx.",
+    "namesake": "Mary Walton Morris",
+    "source_label": "NYC Parks, Walton Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/walton-park/history",
+    "confidence": 0.7
+  },
+  {
+    "street": "Schenectady Avenue",
+    "found": true,
+    "fact": "Schenectady Avenue is named for the city of Schenectady, New York, one of a set of Crown Heights avenues laid out in 1835 that trace the Erie Canal route from Kingston through Utica, Rochester and Buffalo. Schenectady's own name comes from a Mohawk word describing land 'over the pine plains.'",
+    "namesake": "the city of Schenectady, New York",
+    "source_label": "NY1, Seven Brooklyn Streets Are Named for Upstate Cities",
+    "source_url": "https://ny1.com/nyc/all-boroughs/news/2021/03/26/seven-crown-heights-streets-are-named-for-upstate-new-york-cities",
+    "confidence": 0.7
+  },
+  {
+    "street": "Allerton Avenue",
+    "found": true,
+    "fact": "Allerton Avenue is named for Daniel Allerton, an early settler who farmed the surrounding land with his wife Hustace in the 19th century. Daniel Allerton descended from Mayflower passengers, and the family name traces to Allerton, a Yorkshire village whose name means 'the town of the alder trees.'",
+    "namesake": "Daniel Allerton",
+    "source_label": "Welcome2TheBronx, Bronx History: The Birth Of Allerton",
+    "source_url": "https://www.welcome2thebronx.com/2015/10/bronx-history-the-lorillard-spencer-estate-and-the-birth-of-allerton/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Vanderbilt Avenue",
+    "found": true,
+    "fact": "Vanderbilt Avenue is named for Cornelius 'Commodore' Vanderbilt, who ran an early Staten Island to Manhattan ferry before building the shipping and railroad empire that funded Grand Central Terminal. The avenue runs through Clinton Hill and Prospect Heights, where its earliest apartment buildings went up in the 1870s.",
+    "namesake": "Cornelius Vanderbilt",
+    "source_label": "Forgotten New York, Vanderbilt Avenue, Brooklyn",
+    "source_url": "https://forgotten-ny.com/2023/01/vanderbilt-avenue-prospect-heights/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Hazen Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Cozine Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Throop Avenue",
+    "found": true,
+    "fact": "Throop Avenue is named for Enos Thompson Throop, the tenth Governor of New York, who served from 1829 to 1832 after a career as a lawyer, legislator and diplomat. Brooklyn's Throop Avenue and the town of Throop in Cayuga County honor the same governor.",
+    "namesake": "Enos Thompson Throop",
+    "source_label": "Wikipedia, Enos T. Throop",
+    "source_url": "https://en.wikipedia.org/wiki/Enos_T._Throop",
+    "confidence": 0.6
+  },
+  {
+    "street": "Astor Avenue",
+    "found": true,
+    "fact": "Astor Avenue is named for the Astor family, the German born real estate dynasty founded by John Jacob Astor that once held vast New York landholdings and became known as 'the landlords of New York.' The family name also survives nearby in Astoria, Queens, and in Manhattan's Astor Place.",
+    "namesake": "the Astor family",
+    "source_label": "Bronx Times, Astor Village and Pelham Parkway Station",
+    "source_url": "https://www.bxtimes.com/ebhf-astor-village-pelham-parkway-station-meeting/",
+    "confidence": 0.6
+  },
+  {
+    "street": "St Johns Place",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sheridan Avenue",
+    "found": true,
+    "fact": "Sheridan Avenue is named for Philip Henry Sheridan, the Union cavalry general whose 1865 campaign helped cut off Robert E. Lee's retreat and end the Civil War. It runs alongside Sherman and Grant Avenues, part of a trio of Bronx streets east of the Grand Concourse honoring Civil War generals.",
+    "namesake": "General Philip Henry Sheridan",
+    "source_label": "Seton Hall, History of New York City blog, Sheridan Avenue",
+    "source_url": "https://blogs.shu.edu/nyc-history/2020/04/27/sheridan-avenue/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Steuben Street",
+    "found": true,
+    "fact": "Steuben Street is named for Baron Friedrich Wilhelm von Steuben, the Prussian officer who drilled General Washington's Continental Army at Valley Forge after arriving in America in 1777. The name honors his role training American troops during the Revolutionary War.",
+    "namesake": "Baron Friedrich Wilhelm von Steuben",
+    "source_label": "NYC Parks, Steuben Playground",
+    "source_url": "https://www.nycgovparks.org/parks/steuben-playground/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Rogers Avenue",
+    "found": true,
+    "fact": "Rogers Avenue is named for Philip McGregor Rogers, a local landowner, replacing its earlier name, Indian Boundary Line Road. A stretch of the avenue in East Flatbush was co-named in 2018 for Haitian Revolution leader Jean-Jacques Dessalines.",
+    "namesake": "Philip McGregor Rogers",
+    "source_label": "HistoryWiki, Rogers Avenue",
+    "source_url": "https://rpwrhs.org/w/index.php?title=Rogers_Avenue",
+    "confidence": 0.6
+  },
+  {
+    "street": "Ridge Boulevard",
+    "found": true,
+    "fact": "Ridge Boulevard is named for the glacial ridge it follows, a terminal moraine left by receding ice age glaciers along the high ground above New York Bay. The boulevard's ridge helped inspire the surrounding neighborhood's 1853 name change from Yellow Hook to Bay Ridge, after a yellow fever outbreak made the old Dutch name unpopular.",
+    "namesake": "the glacial ridge along the boulevard's route",
+    "source_label": "Brooklyn Eagle, How Bay Ridge got its name",
+    "source_url": "https://brooklyneagle.com/articles/2025/03/11/how-bay-ridge-got-its-name/",
+    "confidence": 0.65
+  },
+  {
+    "street": "St Marks Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Westchester Square",
+    "found": true,
+    "fact": "Westchester Square takes its name from the colonial Village of Westchester, settled by English colonists from the New Haven Colony by 1653 and named for Chester, England. The village became the seat of Westchester County when the county was created in 1683, and the old name survives in the square at the neighborhood's historic center.",
+    "namesake": "the colonial Village of Westchester",
+    "source_label": "Historic Districts Council, Six to Celebrate: Westchester Square",
+    "source_url": "https://6tocelebrate.org/neighborhoods/westchester-square/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Annadale Road",
+    "found": true,
+    "fact": "Annadale Road is named for Anna S. Seguine, a descendant of the South Shore's early Huguenot settlers, whose name was given to the area by developer Erastus Wiman in the 1860s when he built a Staten Island Railroad station there. 'Dale' was added to evoke a pastoral valley for prospective home buyers.",
+    "namesake": "Anna S. Seguine",
+    "source_label": "NYC Parks, Annadale Green Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/annadale-green/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "Batchelder Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Teller Avenue",
+    "found": true,
+    "fact": "Teller Avenue is named for Richard H. Teller, one of the commissioners who approved the 1871 survey map of Morrisania. The street was originally called Fleetwood Avenue after the nearby Fleetwood Racetrack, which once stood between 165th and 167th Streets.",
+    "namesake": "Richard H. Teller",
+    "source_label": "New York Public Library blog, What's in a (Street) Name?",
+    "source_url": "https://www.nypl.org/blog/2019/03/01/bronx-history-street-names-origins",
+    "confidence": 0.65
+  },
+  {
+    "street": "Kew Gardens Road",
+    "found": true,
+    "fact": "Kew Gardens Road takes its name from Kew Gardens, the Queens neighborhood that developer Albon Man's heirs named after London's Royal Botanic Gardens at Kew when they laid out the community in the early 1900s. The name was meant to evoke pastoral English refinement for prospective residents.",
+    "namesake": "Kew Gardens, London's Royal Botanic Gardens",
+    "source_label": "Wikipedia, Kew Gardens, Queens",
+    "source_url": "https://en.wikipedia.org/wiki/Kew_Gardens,_Queens",
+    "confidence": 0.6
+  },
+  {
+    "street": "Page Avenue",
+    "found": true,
+    "fact": "Page Avenue is named for William Page, a 19th century American portrait painter who built an octagonal house near the corner of Hylan Boulevard and Page Avenue in 1865. Baylor Cooley later sold parcels along the avenue to family members and to a small community of African American families who lived there into the early 20th century.",
+    "namesake": "William Page, artist",
+    "source_label": "Tottenville History, Places and Street Names",
+    "source_url": "https://www.tottenvillehistory.com/index.php/history/places-and-street-names.html",
+    "confidence": 0.65
+  },
+  {
+    "street": "Gerard Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Barry Road",
+    "found": true,
+    "fact": "Barry Road on Governors Island is named for Major General Thomas H. Barry, who commanded the Army's Department of the East from the island before his death in 1919, not the Revolutionary War naval hero John Barry. It runs near Nolan Park, close to the commanding officer's house.",
+    "namesake": "Major General Thomas H. Barry",
+    "source_label": "Library of Congress, Governors Island HABS survey",
+    "source_url": "https://www.loc.gov/item/ny1493/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Mott Avenue",
+    "found": true,
+    "fact": "Mott Avenue is named for the Mott family, Far Rockaway's most prominent 19th century landowners, one of whom served as a village trustee when Far Rockaway incorporated in 1888. The avenue connects the neighborhood's three historic sections of Bayswater, Far Rockaway and Wavecrest.",
+    "namesake": "the Mott family",
+    "source_label": "Forgotten New York, A Walk in Far Rockaway, Queens",
+    "source_url": "https://forgotten-ny.com/2013/06/a-walk-in-far-rockaway-queens/",
+    "confidence": 0.65
+  }
+]
