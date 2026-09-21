@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Carpenter Avenue",
+    "found": true,
+    "fact": "Carpenter Avenue is named for Stephen V. R. Carpenter, a landowner in the Wakefield section of the Bronx who bought property there from Mary Duryea in 1868. His family name was later applied to the street as the farmland was subdivided into a streetcar suburb.",
+    "namesake": "Stephen V. R. Carpenter, Wakefield landowner",
+    "source_label": "NYC Parks, Wakefield Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/wakefield-playground/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Ocean Terrace",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Willis Avenue",
+    "found": true,
+    "fact": "Willis Avenue is named for Edward Willis, a Bronx real estate businessman of the 1860s who lived nearby on Alexander Avenue. The street opened in his honor in 1897, replacing what had been the main road through the old village of Morrisania.",
+    "namesake": "Edward Willis, real estate businessman",
+    "source_label": "Historical Marker Database, Willis Avenue Bridge",
+    "source_url": "https://www.hmdb.org/m.asp?m=209697",
+    "confidence": 0.65
+  },
+  {
+    "street": "East Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Clintonville Street",
+    "found": true,
+    "fact": "Clintonville Street is named for DeWitt Clinton, the New York governor, mayor and senator who lived in the area when Whitestone was briefly renamed Clintonville in his honor during the 19th century. The neighborhood reverted to the name Whitestone, but the street kept the Clintonville name.",
+    "namesake": "DeWitt Clinton, New York governor and mayor",
+    "source_label": "Forgotten New York, Whitestone, Queens",
+    "source_url": "https://forgotten-ny.com/2008/02/whitestone-queens/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Hollywood Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Davidson Avenue",
+    "found": true,
+    "fact": "Davidson Avenue is named for Colonel Mathias Oliver Davidson, who served as the Bronx Chief Engineer of Streets from 1867 to 1872 and owned land in the Fordham area. Before settling in the Bronx, Davidson had prospected for gold in Arizona and worked as a civil engineer in Cuba and the American Southwest.",
+    "namesake": "Colonel Mathias Oliver Davidson, Chief Engineer of Streets",
+    "source_label": "NYC Parks, Davidson Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/davidson-playground/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Reads Lane",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Waterbury Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Edgemere Avenue",
+    "found": true,
+    "fact": "Edgemere Avenue takes its name from the Edgemere Hotel, built in 1895 by developer Frederick J. Lancaster, who chose the name as old English for edge of the sea. Lancaster had first tried calling the area New Venice, but that name never caught on with residents.",
+    "namesake": "the Edgemere Hotel, old English for edge of the sea",
+    "source_label": "Forgotten New York, Edgemere, Queens",
+    "source_url": "https://forgotten-ny.com/2005/11/edgemere-queens/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Alexander Avenue",
+    "found": true,
+    "fact": "Alexander Avenue is reputed to be named for Alexander Bathgate, a Scottish immigrant who worked as overseer of the Morris family farm in the early 19th century before saving enough money to buy part of the land himself. Bathgate also gave his name to the nearby Bathgate section of the Bronx.",
+    "namesake": "Alexander Bathgate, overseer of the Morris manor",
+    "source_label": "Brick Underground, Alexander Avenue Bronx history",
+    "source_url": "https://www.brickunderground.com/live/alexander-avenue-bronx-history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Bay Ridge Parkway",
+    "found": true,
+    "fact": "Bay Ridge Parkway takes its name from the Bay Ridge neighborhood it runs through. The area was called Yellow Hook until 1853, when residents renamed it Bay Ridge for the glacial ridge overlooking New York Bay, after yellow fever outbreaks made the old name unpopular.",
+    "namesake": "the Bay Ridge neighborhood",
+    "source_label": "Brownstoner, Bay Ridge Brooklyn name origin",
+    "source_url": "https://www.brownstoner.com/history/bay-ridge-brooklyn-name-origin-history/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Balcom Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Rhinelander Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Alameda Avenue",
+    "found": true,
+    "fact": "Alameda Avenue is named for the Spanish word alameda, meaning a promenade lined with poplar trees. The term came into general use in Spain in the 16th century for tree lined malls and was later applied to this Queens street even though other tree species eventually replaced the original poplars.",
+    "namesake": "the Spanish word alameda, a poplar lined promenade",
+    "source_label": "NYC Parks, Alameda Malls history",
+    "source_url": "https://www.nycgovparks.org/parks/alameda-malls/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Tiffany Street",
+    "found": true,
+    "fact": "Tiffany Street is named for H. D. Tiffany, a 19th century landowner in the Hunts Point section of the Bronx whose name appears on streets and monuments throughout the area. The intersecting Fox Street honors his father in law, William H. Fox.",
+    "namesake": "H. D. Tiffany, 19th century landowner",
+    "source_label": "NYC Parks, Tiffany Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/tiffany-playground/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "North Burgher Avenue",
+    "found": true,
+    "fact": "North Burgher Avenue is named for the Burgher family, prominent landowners on Staten Island's southeast shore. David Burgher, a Stapleton fisherman who was appointed Deputy Sheriff in 1833, was elected a trustee of the Village of Edgewater in 1867.",
+    "namesake": "the Burgher family of Staten Island",
+    "source_label": "NYC Landmarks Preservation Commission, Mary and David Burgher House designation report",
+    "source_url": "http://s-media.nyc.gov/agencies/lpc/lp/2367.pdf",
+    "confidence": 0.6
+  },
+  {
+    "street": "Rutland Road",
+    "found": true,
+    "fact": "Rutland Road is named for Rutland, a small county in the East Midlands of England. Brooklyn renamed the street, originally called Tulip Street, in 1897 as part of a broader trend of giving local streets genteel British place names.",
+    "namesake": "Rutland, a county in England",
+    "source_label": "Forgotten New York, Rutland Road, Lefferts Gardens",
+    "source_url": "https://forgotten-ny.com/2025/01/rutland-road-lefferts-gardens/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Mill Road",
+    "found": true,
+    "fact": "Mill Road in the Bath Beach section of Brooklyn is named for two grist mills that once stood along its route, making it a main artery of the area for roughly two centuries. By 1889 the unpaved lane also held a hotel and a yacht club before losing its importance to the modern street grid.",
+    "namesake": "two grist mills that once stood along the road",
+    "source_label": "Forgotten New York, Mill Road, twilit lane of Bath Beach",
+    "source_url": "https://forgotten-ny.com/2010/06/mill-road/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Brighton Beach Avenue",
+    "found": true,
+    "fact": "Brighton Beach Avenue is named for Brighton, the English seaside resort, an allusion chosen by developer William Engeman when he built the Hotel Brighton on the site in the 1870s. He hoped the name would draw wealthy New York vacationers seeking a prestigious beach destination.",
+    "namesake": "Brighton, the English seaside resort",
+    "source_label": "Brownstoner, Brighton Beach Brooklyn neighborhood name history",
+    "source_url": "https://www.brownstoner.com/history/brighton-beach-brooklyn-neighborhood-name-history-origins/",
+    "confidence": 0.75
+  },
+  {
+    "street": "Caldwell Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Otis Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Vleigh Place",
+    "found": true,
+    "fact": "Vleigh Place takes its name from the Dutch word vly, meaning a marshy meadow. The Kew Gardens Hills area was known to Dutch settlers as the Head of Vleigh, and the street is the only one in New York City whose name begins with the letters VL.",
+    "namesake": "the Dutch word vly, a marshy meadow",
+    "source_label": "Wikipedia, Vleigh Playground",
+    "source_url": "https://en.wikipedia.org/wiki/Vleigh_Playground",
+    "confidence": 0.65
+  },
+  {
+    "street": "Campus Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Vernon Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Cooper Square",
+    "found": true,
+    "fact": "Cooper Square is named for Peter Cooper, the industrialist, inventor and philanthropist who founded Cooper Union nearby to offer free education. The square was renamed in his honor after his death in 1883, and a monument by Augustus Saint-Gaudens now stands at its center.",
+    "namesake": "Peter Cooper, industrialist and philanthropist",
+    "source_label": "Wikipedia, Cooper Square",
+    "source_url": "https://en.wikipedia.org/wiki/Cooper_Square",
+    "confidence": 0.8
+  },
+  {
+    "street": "Wilson Street",
+    "found": true,
+    "fact": "Wilson Street is named for James Wilson, a signer of the Declaration of Independence. The street was mapped around 1846 as part of a cluster of Williamsburg streets that Brooklyn named to honor the signers.",
+    "namesake": "James Wilson, signer of the Declaration of Independence",
+    "source_label": "Novelty Theater, Patriot Names",
+    "source_url": "https://noveltytheater.net/content/patriot-names",
+    "confidence": 0.7
+  },
+  {
+    "street": "Harding Avenue",
+    "found": true,
+    "fact": "Harding Avenue is named for President Warren G. Harding, honored when developers platted the surrounding bungalow colony in the Throggs Neck section of the Bronx during his presidency in the 1920s. The tract was marketed as a summer retreat along the water for working class New Yorkers.",
+    "namesake": "President Warren G. Harding",
+    "source_label": "NYC Parks, Harding Park history",
+    "source_url": "https://www.nycgovparks.org/parks/harding-park/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Alderton Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Loring Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  }
+]

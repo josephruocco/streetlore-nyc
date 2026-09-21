@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Edward Curry Avenue",
+    "found": true,
+    "fact": "Edward Curry Avenue is named for Edward V. Curry, a Staten Island politician who represented Richmond County in the New York State Assembly starting in 1949 and went on to serve in the State Senate and City Council through 1977.",
+    "namesake": "Edward V. Curry",
+    "source_label": "Wikipedia - Edward V. Curry",
+    "source_url": "https://en.wikipedia.org/wiki/Edward_V._Curry",
+    "confidence": 0.7
+  },
+  {
+    "street": "Stewart Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Borinquen Place",
+    "found": true,
+    "fact": "Borinquen Place takes its name from Borinquen, the Taino people's name for Puerto Rico, chosen in 1973 to honor the Puerto Rican community of Williamsburg; the street, formerly known as the Grand Street Extension, was rededicated at a ceremony attended by Mayor John Lindsay.",
+    "namesake": "Borinquen (Taino name for Puerto Rico)",
+    "source_label": "Wikipedia - Borinquen Plaza",
+    "source_url": "https://en.wikipedia.org/wiki/Borinquen_Plaza",
+    "confidence": 0.6
+  },
+  {
+    "street": "Schley Avenue",
+    "found": true,
+    "fact": "Schley Avenue in Throgs Neck honors Rear Admiral Winfield Scott Schley, who commanded the American fleet at the Battle of Santiago de Cuba during the 1898 Spanish-American War; it sits among nearby streets, including Dewey Avenue, named for admirals of that same war.",
+    "namesake": "Winfield Scott Schley",
+    "source_label": "Forgotten New York - Cross Bronx Expressway Spaces",
+    "source_url": "https://forgotten-ny.com/2021/11/cross-bronx-expressway-spaces/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Archer Avenue",
+    "found": true,
+    "fact": "Archer Avenue in downtown Jamaica is named for Theodore Archer, a real estate speculator who was among the influential figures who shaped the growth of the Jamaica area.",
+    "namesake": "Theodore Archer",
+    "source_label": "Queens Chronicle - How a few Queens communities came to be",
+    "source_url": "https://www.qchron.com/editions/central/how-a-few-queens-communities-came-to-be/article_a4440c00-056f-11ea-82c6-eb5da96860ec.html",
+    "confidence": 0.6
+  },
+  {
+    "street": "Oak Point Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Ridgewood Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "West Fingerboard Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sheepshead Bay Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Grandview Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Travis Avenue",
+    "found": true,
+    "fact": "Travis Avenue takes its name from Captain Jacob Travis, an early landholding farmer whose family gave the neighborhood its original name, Travisville, before it later became known as Linoleumville and then, in 1930, simply Travis.",
+    "namesake": "Captain Jacob Travis",
+    "source_label": "Wikipedia - Travis, Staten Island",
+    "source_url": "https://en.wikipedia.org/wiki/Travis,_Staten_Island",
+    "confidence": 0.65
+  },
+  {
+    "street": "Van Nest Avenue",
+    "found": true,
+    "fact": "Van Nest Avenue takes its name from the Van Nest railroad station, named by railroad director Abraham Reynier Van Nest in honor of his father, Reynier Van Nest, a successful saddle maker and descendant of an early Dutch New Amsterdam family.",
+    "namesake": "Reynier Van Nest",
+    "source_label": "NYC Parks - Van Nest Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/van-nest-park/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "Olmstead Avenue",
+    "found": true,
+    "fact": "Olmstead Avenue, originally Avenue D in the village of Unionport, was renamed in 1915 to honor surveyor L.J. Olmstead as part of a wider effort to replace lettered avenues with the names of early local figures; it is unrelated to landscape architect Frederick Law Olmsted, whose surname is spelled differently.",
+    "namesake": "L.J. Olmstead",
+    "source_label": "Olmste(a)d Family Association - Streets and Roads",
+    "source_url": "http://www.olmsteadfamily.org/contents/named/streets/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Van Dam Street",
+    "found": true,
+    "fact": "Van Dam Street in Greenpoint is named for Rip Van Dam, a Dutch colonial merchant who served as acting governor of the Province of New York from 1731 to 1732 and was known for defending press freedom in the John Peter Zenger case.",
+    "namesake": "Rip Van Dam",
+    "source_label": "Wikipedia - Rip Van Dam",
+    "source_url": "https://en.wikipedia.org/wiki/Rip_Van_Dam",
+    "confidence": 0.6
+  },
+  {
+    "street": "Woodward Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Dr M L King Jr Boulevard",
+    "found": true,
+    "fact": "Dr. Martin Luther King Jr. Boulevard is the 1984 co-naming of Manhattan's 125th Street, Harlem's main commercial corridor, honoring the civil rights leader.",
+    "namesake": "Martin Luther King Jr.",
+    "source_label": "Wikipedia - 125th Street (Manhattan)",
+    "source_url": "https://en.wikipedia.org/wiki/125th_Street_(Manhattan)",
+    "confidence": 0.85
+  },
+  {
+    "street": "Clawson Street",
+    "found": true,
+    "fact": "Clawson Street is named for the Clawson family, a longtime Staten Island clan whose homestead on New Dorp Lane dates to 1795, when it was built by Jonathan Clawson and later enlarged by his descendant Reuben Clawson in 1825.",
+    "namesake": "Clawson family",
+    "source_label": "NYC Parks - Clawson Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/clawson-playground/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "Barclay Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "South Gannon Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sherman Avenue",
+    "found": true,
+    "fact": "Sherman Avenue is one of three parallel Bronx avenues, alongside Sheridan and Grant, named for Union Civil War generals; Sherman Avenue honors William Tecumseh Sherman, remembered for the Atlanta Campaign and March to the Sea.",
+    "namesake": "William Tecumseh Sherman",
+    "source_label": "Forgotten New York - Bronx's Newest Park",
+    "source_url": "https://forgotten-ny.com/2025/04/bronxs-newest-park/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Maguire Avenue",
+    "found": true,
+    "fact": "Maguire Avenue in Pleasant Plains is named for Andrew Maguire, a Manhattan resident and Supervisor of Janitors for the NYC Board of Education who owned 40 acres along the street by 1907.",
+    "namesake": "Andrew Maguire",
+    "source_label": "Tottenville History - Places and Street Names",
+    "source_url": "https://www.tottenvillehistory.com/index.php/history/places-and-street-names.html",
+    "confidence": 0.6
+  },
+  {
+    "street": "Spofford Avenue",
+    "found": true,
+    "fact": "Spofford Avenue in Hunts Point is named for Paul Spofford, one of the wealthy landowners who built a farmhouse and mansion on the peninsula in the 19th century.",
+    "namesake": "Paul Spofford",
+    "source_label": "The Point CDC - History of Hunts Point",
+    "source_url": "https://www.thepoint.org/history-of-hunts-point",
+    "confidence": 0.6
+  },
+  {
+    "street": "City Island Avenue",
+    "found": true,
+    "fact": "City Island Avenue runs the length of City Island, which developer Benjamin Palmer named in 1761 when he envisioned turning the then rural Great Minnefords Island into a rival seaport to Manhattan; the avenue was laid out as the island's Main Street.",
+    "namesake": "Benjamin Palmer",
+    "source_label": "City Island Nautical Museum - City Island History",
+    "source_url": "https://www.cityislandmuseum.org/copy-of-city-island-childhood-2",
+    "confidence": 0.6
+  },
+  {
+    "street": "Wallace Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Macombs Road",
+    "found": true,
+    "fact": "Macombs Road in Morris Heights is named for Robert Macomb, who in 1813 won state permission to dam the Harlem River near Kingsbridge to power a mill, a controversial structure that was ultimately demolished in 1858 after decades of complaints.",
+    "namesake": "Robert Macomb",
+    "source_label": "Wikipedia - Macombs Dam Bridge",
+    "source_url": "https://en.wikipedia.org/wiki/Macombs_Dam_Bridge",
+    "confidence": 0.65
+  },
+  {
+    "street": "Delafield Avenue",
+    "found": true,
+    "fact": "Delafield Avenue is named for Major Joseph Delafield, a lawyer, surveyor, and War of 1812 veteran who purchased more than 250 acres in the area in 1829, land that later became the Fieldston estate.",
+    "namesake": "Joseph Delafield",
+    "source_label": "Brownstoner - Fieldston history",
+    "source_url": "https://www.brownstoner.com/upstate/fieldston-bronx-history-architecture/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Longfellow Avenue",
+    "found": true,
+    "fact": "Longfellow Avenue in Foxhurst is named for poet Henry Wadsworth Longfellow, the 19th century author of Evangeline and Paul Revere's Ride.",
+    "namesake": "Henry Wadsworth Longfellow",
+    "source_label": "NYC Parks - Longfellow Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/X290/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "Cauldwell Avenue",
+    "found": true,
+    "fact": "Cauldwell Avenue was named in 1916 for William Cauldwell, who served as supervisor of the Town of Morrisania before it was annexed into the Bronx and was dubbed the father of Sunday journalism by the New York Tribune.",
+    "namesake": "William Cauldwell",
+    "source_label": "Wikipedia - William Cauldwell",
+    "source_url": "https://en.wikipedia.org/wiki/William_Cauldwell",
+    "confidence": 0.65
+  },
+  {
+    "street": "Nereid Avenue",
+    "found": true,
+    "fact": "Nereid Avenue in Wakefield is named for the Nereids, sea nymphs of Greek mythology associated with water; according to Bronx historian John McNamara, the landlocked street got its name through a former volunteer fire company that once operated there.",
+    "namesake": "Nereids (Greek mythological sea nymphs)",
+    "source_label": "Ephemeral New York - New York's sea mythology street names",
+    "source_url": "https://ephemeralnewyork.wordpress.com/2012/07/28/new-yorks-sea-mythology-street-names/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Seguine Avenue",
+    "found": true,
+    "fact": "Seguine Avenue is named for the prosperous Seguine family, who settled on Staten Island around 1706; Joseph H. Seguine built the family's Greek Revival mansion near Lemon Creek in 1838 while running the family's oyster harvesting business.",
+    "namesake": "Seguine family",
+    "source_label": "Wikipedia - Seguine Mansion",
+    "source_url": "https://en.wikipedia.org/wiki/Seguine_Mansion",
+    "confidence": 0.7
+  }
+]

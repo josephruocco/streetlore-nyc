@@ -1,0 +1,263 @@
+[
+  {
+    "street": "Olympia Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Commonwealth Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Voorhies Avenue",
+    "found": true,
+    "fact": "Stephen Coerte Van Voorhees, a Dutch settler whose family arrived in New Amsterdam in the 17th century and later held land around Sheepshead Bay, is honored by Voorhies Avenue. The Town of Flatbush named the street for the Voorhees family when it ran out of letters for its alphabetical avenues, and the spelling shifted from Voorhees to Voorhies over time.",
+    "namesake": "Stephen Coerte Van Voorhees (Dutch settler family)",
+    "source_label": "Brooklyn Eagle, \"Ask a historian: What's the nautical history of southern Brooklyn?\"",
+    "source_url": "https://brooklyneagle.com/articles/2019/09/17/ask-a-historian-whats-the-nautical-history-of-southern-brooklyn/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Astoria Boulevard South",
+    "found": true,
+    "fact": "Astoria Boulevard South takes its name from Astoria, the Queens neighborhood named in the 1830s for John Jacob Astor, then the richest man in America, by village supporters hoping to win his patronage. The boulevard runs as a service road alongside Astoria Boulevard and the Grand Central Parkway, which absorbed the older road in 1936.",
+    "namesake": "John Jacob Astor (indirectly, via the Astoria neighborhood)",
+    "source_label": "Wikipedia, Astoria Boulevard",
+    "source_url": "https://en.wikipedia.org/wiki/Astoria_Boulevard",
+    "confidence": 0.5
+  },
+  {
+    "street": "Pelham Parkway South",
+    "found": true,
+    "fact": "Thomas Pell, the English settler who bought a large tract of land from the Siwanoy in 1654 to found Pelham Manor, is honored in the name Pelham Parkway. The parkway, officially the Bronx and Pelham Parkway, was created in 1884 to connect Bronx Park with Pelham Bay Park, both named for the same family.",
+    "namesake": "Thomas Pell",
+    "source_label": "NYC Parks, Pelham Parkway Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/pelham-parkway/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Targee Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sanford Avenue",
+    "found": true,
+    "fact": "Sanford Avenue is named for Nathan Sanford, a United States Senator who owned most of the land in Flushing's Waldheim section in the early 1800s. His son Edward Sanford, a political writer and poet, later lived in a landmarked family house nearby in Corona.",
+    "namesake": "Nathan Sanford",
+    "source_label": "Forgotten New York, \"Sanford Avenue, Flushing\"",
+    "source_url": "https://forgotten-ny.com/2009/07/sanford-avenue-flushing/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Patterson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Frankfort Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Tilden Avenue",
+    "found": true,
+    "fact": "Samuel J. Tilden, the reform Governor of New York who exposed the Tweed Ring's corruption in the 1870s and won the popular vote for president in the disputed 1876 election, is the namesake of Tilden Avenue. He is also honored with a Brooklyn high school and a monument in Manhattan's Riverside Park.",
+    "namesake": "Samuel J. Tilden",
+    "source_label": "NYC Parks, Riverside Park Monuments: Samuel J. Tilden",
+    "source_url": "https://www.nycgovparks.org/parks/riverside-park/monuments/1548",
+    "confidence": 0.7
+  },
+  {
+    "street": "Major Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Adler Place",
+    "found": true,
+    "fact": "Adler Place in Co-op City is named for Cyrus Adler, a scholar who edited the Jewish Encyclopedia and led several major American Jewish institutions in the early 20th century. Streets throughout Co-op City were named for writers and public figures when the development opened in the late 1960s.",
+    "namesake": "Cyrus Adler",
+    "source_label": "Co-op City Community Forums, \"Co-Op City Street Name History\"",
+    "source_url": "https://www.tapatalk.com/groups/coopcitycommunityforums/co-op-city-street-name-history-t505.html",
+    "confidence": 0.55
+  },
+  {
+    "street": "Cornaga Avenue",
+    "found": true,
+    "fact": "John Cornaga, a former loyalist who bought part of the colonial Cornell estate in Far Rockaway in 1808, gave his name to Cornaga Avenue. His son later sold the family home to Calvin Mott, whose own name lives on nearby, continuing a pattern of Far Rockaway streets named for early landowning families.",
+    "namesake": "John Cornaga",
+    "source_label": "Forgotten New York, \"Pre-NYC Far Rockaway\" (citing Alfred Henry Bellot, 1918)",
+    "source_url": "https://forgotten-ny.com/2026/08/pre-nyc-far-rockaway/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Quincy Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Courtlandt Avenue",
+    "found": true,
+    "fact": "The Van Cortlandt family, wealthy Dutch merchants who acquired land in the Bronx in 1694 and built the Van Cortlandt Mansion in 1748, are honored in the name Courtlandt Avenue. The family held the property, now Van Cortlandt Park, until the 1880s, and their name appears on several Bronx streets.",
+    "namesake": "Van Cortlandt family",
+    "source_label": "Forgotten New York, \"Kingsbridge Hts./Van Cortlandt Village, Bronx\"",
+    "source_url": "https://forgotten-ny.com/2009/09/kingsbridge-hts-van-cortlandt-village-bronx/",
+    "confidence": 0.65
+  },
+  {
+    "street": "Givan Avenue",
+    "found": true,
+    "fact": "Robert Givan, a Scottish immigrant who ran a mill on a marshy Bronx creek in the 19th century, is the namesake of Givan Avenue in Edenwald. The nearby Givan's Creek Woods and Givan Square, sited at the old mill location, also carry the family name.",
+    "namesake": "Robert Givan",
+    "source_label": "A Great Big City, \"Givan Square in the Bronx\"",
+    "source_url": "https://agreatbigcity.com/parks/givan-square",
+    "confidence": 0.6
+  },
+  {
+    "street": "Homelawn Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Midland Avenue",
+    "found": true,
+    "fact": "Midland Avenue takes its name from Midland Beach, a name coined by developers in the late 19th century marketing the Staten Island shore as a resort sitting midway between South Beach and New Dorp Beach. The avenue became one of the neighborhood's two main thoroughfares once the resort took off in the 1890s.",
+    "namesake": "Midland Beach (descriptive: midway between South Beach and New Dorp Beach)",
+    "source_label": "Wikipedia, Midland Beach, Staten Island",
+    "source_url": "https://en.wikipedia.org/wiki/Midland_Beach,_Staten_Island",
+    "confidence": 0.55
+  },
+  {
+    "street": "Bouck Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Vermont Street",
+    "found": true,
+    "fact": "Vermont Street honors the state of Vermont as part of developer John R. Pitkin's 1835 street grid for East New York, which named avenues for American states as Pitkin envisioned the area rivaling Manhattan itself. The street was renamed from Vermont Avenue to Vermont Street by the Brooklyn Common Council in 1887.",
+    "namesake": "the state of Vermont",
+    "source_label": "Brownstoner, \"East New York Brooklyn: How the Neighborhood Got Its Name\"",
+    "source_url": "https://www.brownstoner.com/history/east-new-york-brooklyn-neighborhood-name-history-origins/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Rochester Avenue",
+    "found": true,
+    "fact": "Rochester Avenue honors the upstate city of Rochester, named along with nearby Buffalo Avenue in 1835 as a tribute to the Erie Canal that made both cities into industrial hubs. The pair of Crown Heights avenues trace the canal's route from the Hudson River west to Lake Erie.",
+    "namesake": "Rochester, New York",
+    "source_label": "NY1, \"Seven Brooklyn Streets Are Named for Upstate Cities\"",
+    "source_url": "https://ny1.com/nyc/all-boroughs/news/2021/03/26/seven-crown-heights-streets-are-named-for-upstate-new-york-cities",
+    "confidence": 0.6
+  },
+  {
+    "street": "Lacombe Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bement Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Edison Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Thomson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Clason Point Lane",
+    "found": true,
+    "fact": "Isaac Clason, a wealthy merchant who acquired much of a Bronx peninsula in the late 1700s, gave his name to Clason Point after his shipping and milling operations along the Bronx River made him one of the area's largest landowners. The peninsula had earlier been called Cornell's Neck for farmer Thomas Cornell.",
+    "namesake": "Isaac Clason",
+    "source_label": "Welcome2TheBronx, \"A Brief History of Clason Point in The Bronx\"",
+    "source_url": "https://www.welcome2thebronx.com/2018/08/a-brief-history-of-clason-point-in-the-bronx/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Jennings Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Fresh Meadow Lane",
+    "found": true,
+    "fact": "Fresh Meadow Lane takes its name from the salt meadows and freshwater springs that early Dutch and English settlers found covering this part of Queens. The road was originally part of Black Stump Road, named for the blackened tree stumps settlers used to mark property lines, before the friendlier Fresh Meadows name replaced it in the 1920s.",
+    "namesake": "the fresh meadows and springs of colonial era Queens (descriptive)",
+    "source_label": "Forgotten New York, \"Fresh Meadow Lane, Queens\"",
+    "source_url": "https://forgotten-ny.com/2010/08/fresh-meadow-lane-queens/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Sherman Avenue",
+    "found": true,
+    "fact": "William Tecumseh Sherman, the Union Civil War general known for his march through Georgia, is honored in Sherman Avenue, one of three Morrisania avenues, alongside Sheridan and Grant, named for Union generals east of the Grand Concourse.",
+    "namesake": "William Tecumseh Sherman",
+    "source_label": "Forgotten New York, \"Morrisania, Bronx\"",
+    "source_url": "https://forgotten-ny.com/2011/01/morrisania-bronx/",
+    "confidence": 0.55
+  }
+]
