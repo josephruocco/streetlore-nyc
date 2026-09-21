@@ -1,0 +1,272 @@
+[
+  {
+    "street": "Powell Street",
+    "found": true,
+    "fact": "Samuel S. Powell, a two time mayor of Brooklyn who served from 1857 to 1861 and again from 1872 to 1873, is honored by Powell Street and the nearby Powell Playground, which NYC Parks says was named for him. During the Civil War, Powell organized 1,000 police officers to help defend the Brooklyn Navy Yard.",
+    "namesake": "Samuel S. Powell",
+    "source_label": "NYC Parks, Powell Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/powell-playground/history",
+    "confidence": 0.55
+  },
+  {
+    "street": "Bailey Avenue",
+    "found": true,
+    "fact": "Nathaniel Platt Bailey, a wealthy 19th century landowner whose estate ran from Fordham Road to Kingsbridge Road in the West Bronx, is the namesake of Bailey Avenue, according to NYC Parks. He is not related to circus showman James A. Bailey of Barnum and Bailey, a mix up locals often make.",
+    "namesake": "Nathaniel Platt Bailey",
+    "source_label": "NYC Parks, Bailey Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/bailey-playground/history",
+    "confidence": 0.85
+  },
+  {
+    "street": "Armstrong Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Macombs Road",
+    "found": true,
+    "fact": "Robert Macomb, who won permission from the New York State Legislature in 1813 to dam the Harlem River near Kingsbridge, is the namesake of Macombs Road in Morris Heights. His dam, built in 1814 to power a mill, was torn down in 1858 after years of complaints that it blocked river navigation.",
+    "namesake": "Robert Macomb",
+    "source_label": "Wikipedia, Macombs Dam",
+    "source_url": "https://en.wikipedia.org/wiki/Macombs_Dam",
+    "confidence": 0.8
+  },
+  {
+    "street": "Delafield Avenue",
+    "found": true,
+    "fact": "Major Joseph Delafield, who in 1829 bought a 257 acre farm above the Hudson River and named his new estate Fieldston, is the namesake of Delafield Avenue in Riverdale. His descendants later laid out the streets of the Fieldston neighborhood on the property.",
+    "namesake": "Joseph Delafield",
+    "source_label": "Wikipedia, Fieldston, Bronx",
+    "source_url": "https://en.wikipedia.org/wiki/Fieldston,_Bronx",
+    "confidence": 0.8
+  },
+  {
+    "street": "Nashville Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Longfellow Avenue",
+    "found": true,
+    "fact": "Henry Wadsworth Longfellow, the 19th century American poet best known for The Song of Hiawatha, is the namesake of Longfellow Avenue in the Bronx. A nearby waterfall in Longfellow Playground was even named Hiawatha Falls in tribute to his poem.",
+    "namesake": "Henry Wadsworth Longfellow",
+    "source_label": "NYC Parks, Longfellow Playground history",
+    "source_url": "https://www.nycgovparks.org/parks/X290/history",
+    "confidence": 0.6
+  },
+  {
+    "street": "Bronx Park East",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Boscombe Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Cauldwell Avenue",
+    "found": true,
+    "fact": "State Senator William Cauldwell, a 19th century newspaper publisher called the father of Sunday journalism who also led the local board of education and pushed for the Bronx's annexation to New York City, is the namesake of Cauldwell Avenue, named for him in 1916.",
+    "namesake": "William Cauldwell",
+    "source_label": "Wikipedia, William Cauldwell",
+    "source_url": "https://en.wikipedia.org/wiki/William_Cauldwell",
+    "confidence": 0.75
+  },
+  {
+    "street": "Fairview Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Marathon Parkway",
+    "found": true,
+    "fact": "Marathon Park, a real estate development from the late 19th and early 20th centuries near Little Neck and Douglaston, is the namesake of Marathon Parkway. Developers of that era favored classical sounding names to lend an air of prestige, which is why nearby Queens also has a Utopia Parkway.",
+    "namesake": "Marathon Park (development)",
+    "source_label": "Forgotten New York, Marathon Run in Little Neck",
+    "source_url": "https://forgotten-ny.com/2008/02/marathon-run-in-little-neck/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Nereid Avenue",
+    "found": true,
+    "fact": "An old volunteer fire company, not the sea nymphs of Greek mythology the name suggests, is said to be the namesake of Nereid Avenue in Wakefield. Fire companies of the era often took water themed names, and Nereid Avenue is remembered locally as the only Bronx street that still recalls one of them.",
+    "namesake": "a former local fire company (water themed name)",
+    "source_label": "Ephemeral New York, New York's sea mythology street names",
+    "source_url": "https://ephemeralnewyork.wordpress.com/2012/07/28/new-yorks-sea-mythology-street-names/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Seguine Avenue",
+    "found": true,
+    "fact": "James Seguine, a French Huguenot whose family settled on Staten Island around 1706, and his grandson Joseph Seguine, who built the Greek Revival Seguine Mansion in 1838 and ran an oystering and candle making business, are the namesakes of Seguine Avenue in Prince's Bay.",
+    "namesake": "James Seguine and Joseph Seguine",
+    "source_label": "Seguine Mansion, History",
+    "source_url": "http://seguinemansion.org/history/",
+    "confidence": 0.85
+  },
+  {
+    "street": "Van Brunt Street",
+    "found": true,
+    "fact": "Rutgert Van Brunt, a member of the old Dutch Van Brunt family who represented Kings County in the New York State Assembly in 1783 and 1784, is believed to be the namesake of Van Brunt Street in Red Hook. The Van Brunts were among the early Dutch settlers of Brooklyn.",
+    "namesake": "Rutgert Van Brunt",
+    "source_label": "Red Hook WaterStories, Van Brunt Street",
+    "source_url": "https://redhookwaterstories.org/items/show/12",
+    "confidence": 0.55
+  },
+  {
+    "street": "Inwood Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Linwood Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Tysens Lane",
+    "found": true,
+    "fact": "The Tysen family, Dutch farmers who lived for generations in what is now Oakwood on Staten Island, is the namesake of Tysens Lane. The family's farmhouse, later known as the Lake Tysen House, once stood near the lane before it was moved to Historic Richmond Town.",
+    "namesake": "Tysen family",
+    "source_label": "Wikipedia, Lake Tysen House",
+    "source_url": "https://en.wikipedia.org/wiki/Lake%E2%80%93Tysen_House",
+    "confidence": 0.65
+  },
+  {
+    "street": "Furmanville Avenue",
+    "found": true,
+    "fact": "Jonathan Furman, a member of the Furman family who settled along Dry Harbor Road in what is now Middle Village, Queens in 1759, is the namesake of Furmanville Avenue. The surrounding area became known as Furmanville after his family, and the road carried that name before being formally renamed Furmanville Avenue in 1925.",
+    "namesake": "Jonathan Furman",
+    "source_label": "Juniper Park Civic Association, How Furmanville Avenue Got Its Name",
+    "source_url": "https://junipercivic.com/history/how-furmanville-avenue-got-its-name",
+    "confidence": 0.8
+  },
+  {
+    "street": "Walker Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Amsterdam Avenue",
+    "found": true,
+    "fact": "Amsterdam, the capital of the Netherlands and home to many of New York's first European settlers, is the namesake of Amsterdam Avenue. The stretch of Tenth Avenue north of West 59th Street was renamed Amsterdam Avenue in 1890 to celebrate the city's Dutch roots.",
+    "namesake": "Amsterdam, Netherlands",
+    "source_label": "Wikipedia, Amsterdam Avenue",
+    "source_url": "https://en.wikipedia.org/wiki/Amsterdam_Avenue",
+    "confidence": 0.85
+  },
+  {
+    "street": "Ditmars Boulevard",
+    "found": true,
+    "fact": "Abram Ditmars, the first mayor of Long Island City after its 1870 incorporation, is the namesake of Ditmars Boulevard in Astoria. His Dutch family had farmed the Dutch Kills area of western Queens since the 1600s.",
+    "namesake": "Abram Ditmars",
+    "source_label": "QNS, Ditmars: Mayor Leaves His Name",
+    "source_url": "https://qns.com/2011/05/ditmars-mayor-leaves-his-name/",
+    "confidence": 0.8
+  },
+  {
+    "street": "Utopia Parkway",
+    "found": true,
+    "fact": "The Utopia Land Company, a group of Jewish social reformers who in 1905 bought Queens farmland to build a self sustaining cooperative community for Lower East Side families, is the namesake of Utopia Parkway. The company went bankrupt before it could build the settlement, and the road named for it in 1940 is the only trace of the plan left today.",
+    "namesake": "Utopia Land Company",
+    "source_label": "Untapped Cities, History of Streets: Queens' Utopia Parkway",
+    "source_url": "https://www.untappedcities.com/history-of-streets-queens-utopia-parkway-is-more-than-just-a-pop-album/",
+    "confidence": 0.85
+  },
+  {
+    "street": "Gun Hill Road",
+    "found": true,
+    "fact": "A Revolutionary War skirmish is the namesake of Gun Hill Road. In January 1777, American soldiers under Major General William Heath dragged a cannon to the top of a hill near the Bronx River and fired on British troops below, and the hill was afterward known as Gun Hill.",
+    "namesake": "the Revolutionary War era cannon action at Gun Hill",
+    "source_label": "Forgotten New York, Gun Hill Road Part One",
+    "source_url": "https://forgotten-ny.com/2015/02/gun-hill-road-part-one/",
+    "confidence": 0.7
+  },
+  {
+    "street": "Boston Post Road",
+    "found": true,
+    "fact": "Boston, the Massachusetts city where the route ended, is the namesake of the Boston Post Road. Established in 1673 as North America's first official post road, it carried mail riders between New York and Boston, and its first Bronx segment survives today as Boston Road.",
+    "namesake": "Boston, Massachusetts",
+    "source_label": "Wikipedia, Boston Post Road",
+    "source_url": "https://en.wikipedia.org/wiki/Boston_Post_Road",
+    "confidence": 0.8
+  },
+  {
+    "street": "Kissena Boulevard",
+    "found": true,
+    "fact": "Samuel Bowne Parsons, a 19th century Flushing horticulturist, gave Kissena Lake and Kissena Boulevard their name by borrowing a Chippewa word meaning it is cold from a book on Native American languages. The word was not native to Queens, whose original inhabitants were the Matinecock, making Kissena an imported name rather than a local one.",
+    "namesake": "Samuel Bowne Parsons",
+    "source_label": "Wikipedia, Kissena Park",
+    "source_url": "https://en.wikipedia.org/wiki/Kissena_Park",
+    "confidence": 0.75
+  },
+  {
+    "street": "Hylan Boulevard",
+    "found": true,
+    "fact": "John Francis Hylan, the 97th mayor of New York City, who served from 1918 to 1925, is the namesake of Hylan Boulevard. The Staten Island road, previously named Southfield Boulevard, was renamed in his honor in 1923.",
+    "namesake": "John Francis Hylan",
+    "source_label": "Wikipedia, Hylan Boulevard",
+    "source_url": "https://en.wikipedia.org/wiki/Hylan_Boulevard",
+    "confidence": 0.85
+  },
+  {
+    "street": "Zerega Avenue",
+    "found": true,
+    "fact": "Augustus Zerega diZerega, a Venezuelan born merchant and shipowner who settled in the Throggs Neck area in the 19th century, is the namesake of Zerega Avenue. Bronx historian John McNamara wrote that Zerega kept all his business transactions in his head rather than in ledgers.",
+    "namesake": "Augustus Zerega diZerega",
+    "source_label": "Forgotten New York, Zerega Avenue, Bronx",
+    "source_url": "https://forgotten-ny.com/2023/06/zerega-avenue-bronx/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Middletown Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bruckner Boulevard",
+    "found": true,
+    "fact": "Henry Bruckner, who served as Bronx borough president from 1918 to 1933 after representing the borough in Congress, is the namesake of Bruckner Boulevard. The road, previously called Eastern Boulevard, was renamed in his honor in 1942.",
+    "namesake": "Henry Bruckner",
+    "source_label": "Wikipedia, Henry Bruckner",
+    "source_url": "https://en.wikipedia.org/wiki/Henry_Bruckner",
+    "confidence": 0.85
+  }
+]
