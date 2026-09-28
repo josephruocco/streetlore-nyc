@@ -1,0 +1,245 @@
+[
+  {
+    "street": "Morningside Drive",
+    "found": true,
+    "fact": "Morningside Drive is named for its location on the morning side, the sunrise facing side, of the rocky ridge that separates Morningside Heights from the Harlem plain below, a name formalized as the surrounding heights and park were developed in the 1880s and 1890s.",
+    "namesake": "the sunrise facing (morning) side of the Morningside Heights ridge",
+    "source_label": "NYC Parks, Morningside Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/morningside-park/history",
+    "confidence": 0.65
+  },
+  {
+    "street": "Wainwright Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Havemeyer Avenue",
+    "found": true,
+    "fact": "Havemeyer Avenue is named for William Frederick Havemeyer, the sugar refining magnate who served three terms as mayor of New York City in the 19th century. The street, formerly Avenue B in the Unionport section of the Bronx, was renamed for the prominent Havemeyer family around 1900.",
+    "namesake": "William Frederick Havemeyer",
+    "source_label": "NYC Parks, Havemeyer Playground Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/havemeyer-playground/history",
+    "confidence": 0.7
+  },
+  {
+    "street": "Seaver Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Jefferson Boulevard",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Van Cortlandt Park South",
+    "found": true,
+    "fact": "Van Cortlandt Park South is named for the Van Cortlandt family, Dutch merchants who acquired the surrounding land in 1694 when Jacobus Van Cortlandt purchased the tract. His descendants occupied the estate, including the 1748 Van Cortlandt Mansion, until the city took the property for parkland in 1888.",
+    "namesake": "the Van Cortlandt family (Jacobus Van Cortlandt)",
+    "source_label": "NYC Parks, Van Cortlandt Park Highlights",
+    "source_url": "https://www.nycgovparks.org/parks/VanCortlandtPark/history",
+    "confidence": 0.75
+  },
+  {
+    "street": "Melrose Avenue",
+    "found": true,
+    "fact": "Melrose Avenue takes its name from Melrose Abbey in Scotland, honored by the Morris family of Morrisania when they named their 19th century Bronx estate Melrose. The name passed to the surrounding neighborhood and its main avenue once the estate was subdivided for development.",
+    "namesake": "Melrose Abbey, Scotland (via the Morris family's Melrose estate)",
+    "source_label": "Wikipedia, Melrose, Bronx",
+    "source_url": "https://en.wikipedia.org/wiki/Melrose,_Bronx",
+    "confidence": 0.65
+  },
+  {
+    "street": "Quincy Street",
+    "found": true,
+    "fact": "Quincy Street is named for Josiah Quincy III, a distant cousin of President John Quincy Adams who served as mayor of Boston and later as president of Harvard College in the early 19th century, one of several Bedford-Stuyvesant streets honoring notable Americans.",
+    "namesake": "Josiah Quincy III",
+    "source_label": "Brooklyn By Name (Leonard Benardo and Jennifer Weiss, NYU Press)",
+    "source_url": "https://nyupress.org/9780814799468/brooklyn-by-name/",
+    "confidence": 0.6
+  },
+  {
+    "street": "Atkins Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Sampson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Slosson Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Davis Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Rossville Avenue",
+    "found": true,
+    "fact": "Rossville Avenue is named for Colonel William E. Ross, a 19th century landowner who built a landing and storehouse along the Arthur Kill and a mansion overlooking the Blazing Star ferry landing, giving his name to the surrounding village of Rossville by the 1830s.",
+    "namesake": "Colonel William E. Ross",
+    "source_label": "CityNeighborhoods.NYC, Rossville",
+    "source_url": "https://www.cityneighborhoods.nyc/rossville",
+    "confidence": 0.65
+  },
+  {
+    "street": "Review Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Arthur Avenue",
+    "found": true,
+    "fact": "Arthur Avenue is named for President Chester A. Arthur, chosen by Catherine Lorillard Wolfe, an admirer of the president and heir to the Lorillard family's Belmont estate, as the city laid out streets through the former tobacco fortune property in the late 19th century.",
+    "namesake": "Chester A. Arthur",
+    "source_label": "Wikipedia, Arthur Avenue",
+    "source_url": "https://en.wikipedia.org/wiki/Arthur_Avenue",
+    "confidence": 0.6
+  },
+  {
+    "street": "Foster Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Brush Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Hawtree Creek Road",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Trantor Place",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Bussing Avenue",
+    "found": true,
+    "fact": "Bussing Avenue is named for the Bussing family, landowners of Dutch descent who were among the chief property holders in the northern Bronx farmland that became Wakefield and Norwood through the 19th century.",
+    "namesake": "the Bussing family",
+    "source_label": "UrbanAreas.net, Norwood, The Bronx (History)",
+    "source_url": "https://urbanareas.net/info/resources/neighborhoods-bronx/norwood-bronx-history/",
+    "confidence": 0.55
+  },
+  {
+    "street": "Cooper Place",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Royce Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Cedar Grove Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Dry Harbor Road",
+    "found": true,
+    "fact": "Dry Harbor Road is named not for a person but for its own appearance. From about 1750 to 1928 the winding, elevated wagon path looked like a harbor from a distance even though it carried no water, unlike the swampy South Meadow Road, today's Woodhaven Boulevard, which ran through the wet Hempstead Swamp nearby.",
+    "namesake": "the road's dry, harbor like appearance",
+    "source_label": "qchron.com, Dry Harbor Road's good taste",
+    "source_url": "https://www.qchron.com/qboro/i_have_often_walked/dry-harbor-road-s-good-taste/article_eccd98ef-ae26-50b3-bea5-af8a8ed7ea2e.html",
+    "confidence": 0.6
+  },
+  {
+    "street": "Ford Street",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Locust Avenue",
+    "found": false,
+    "fact": "",
+    "namesake": "",
+    "source_label": "",
+    "source_url": "",
+    "confidence": 0.0
+  },
+  {
+    "street": "Provost Avenue",
+    "found": true,
+    "fact": "Provost Avenue is named for David Provost, who served as the 25th mayor of New York City from 1699 to 1700 under British colonial rule. It is one of several northern Bronx streets, alongside De Reimer Avenue and Dyre Avenue, honoring early New Amsterdam and colonial era mayors.",
+    "namesake": "David Provost",
+    "source_label": "Wikipedia, David Provost",
+    "source_url": "https://en.wikipedia.org/wiki/David_Provost",
+    "confidence": 0.6
+  }
+]
