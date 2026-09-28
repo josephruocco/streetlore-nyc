@@ -356,12 +356,37 @@ Open [StreetHistory.xcodeproj](/Users/josephruocco/nyc-street-history/ios/Street
 
 The app reads `APIBaseURL` from build settings, so you can point Debug or Release at different backends without changing Swift code.
 
-## Current Limitations
+## Project Status
 
-- fact coverage is still sparse outside seeded streets/places
-- landmark POIs are not fully populated
-- free Render instances sleep after inactivity
-- place facts depend on good nearby place ranking and naming
+### What is working
+
+- [x] FastAPI backend with `/v1/card`, `/health`, `/health/poi`, and `/health/facts` endpoints
+- [x] Street snapping via PostGIS nearest-neighbour query
+- [x] Neighborhood and borough lookup from NYNTA polygons
+- [x] Cross-street detection
+- [x] Fact lookup with fallback chain: `street_code` → `street_name` → `place_name` → neighbourhood text
+- [x] POI categories: `park`, `transit`, `food`
+- [x] 63 seed facts loaded (46 street facts, 17 place facts)
+- [x] SwiftUI iOS app with Core Location integration, local card cache, and card rendering
+- [x] Local Docker Compose stack for development
+- [x] Render deployment config (`render.yaml`)
+- [x] Test suite: 44 tests passing across 9 test files
+
+### What is in progress
+
+- [ ] Fact coverage — seeded facts cover around 60 streets and places; the vast majority of NYC is uncovered
+- [ ] Place ranking — generic nearby food currently scores above major civic landmarks
+- [ ] Landmark POI data — the `landmark` category is wired in the backend but not yet populated with real data
+
+### What is planned
+
+- [ ] CI pipeline — no GitHub Actions workflows; tests are run manually
+- [ ] Automated data refresh — POI and fact import scripts exist but nothing schedules them
+- [ ] Monitoring and structured logging beyond the health endpoints
+- [ ] Rate limiting and authentication on the public API
+- [ ] Offline mode for the iOS app beyond the single cached card
+
+> **Note:** free Render instances sleep after inactivity, so the first request after idle may be slow.
 
 ## Short-Term Priorities
 
