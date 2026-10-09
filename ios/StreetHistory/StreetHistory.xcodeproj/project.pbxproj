@@ -452,7 +452,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StreetHistory/Info.plist;
 				INFOPLIST_KEY_APIBaseURL = "https://nyc-street-history.onrender.com";
-				INFOPLIST_KEY_CFBundleDisplayName = StreetLore;
+				INFOPLIST_KEY_CFBundleDisplayName = "Street Lore NYC";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NYC Street Lore uses your location to show the street you’re on and a nearby “did you know?” fact.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -493,7 +493,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StreetHistory/Info.plist;
 				INFOPLIST_KEY_APIBaseURL = "https://nyc-street-history.onrender.com";
-				INFOPLIST_KEY_CFBundleDisplayName = StreetLore;
+				INFOPLIST_KEY_CFBundleDisplayName = "Street Lore NYC";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "NYC Street Lore uses your location to show the street you’re on and a nearby “did you know?” fact.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
