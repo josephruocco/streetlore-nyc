@@ -124,21 +124,26 @@ ORDER BY confidence DESC, updated_at DESC
 LIMIT 1;
 """
 
+# Borough-scoped: a fact tagged to a borough only shows in that borough; untagged
+# facts (borough IS NULL) are generic and show anywhere. Borough-matched facts win.
 FACT_BY_STREETNAME_SQL = """
 SELECT to_jsonb(fact) AS fact
 FROM fact
 WHERE key_type = 'street_name' AND LOWER(BTRIM(key_value)) = :street_name
-ORDER BY confidence DESC, updated_at DESC
+  AND (borough IS NULL OR borough ILIKE :borough)
+ORDER BY (borough IS NOT NULL) DESC, confidence DESC, updated_at DESC
 LIMIT 1;
 """
 
 # All facts for a street, name-origin anchor first (highest confidence), then a
 # stable order so a client rotation index lands on the same fact every visit.
+# Same borough scoping as above.
 FACTS_BY_STREETNAME_SQL = """
 SELECT to_jsonb(fact) AS fact
 FROM fact
 WHERE key_type = 'street_name' AND LOWER(BTRIM(key_value)) = :street_name
-ORDER BY confidence DESC, id ASC;
+  AND (borough IS NULL OR borough ILIKE :borough)
+ORDER BY (borough IS NOT NULL) DESC, confidence DESC, id ASC;
 """
 
 # The nearest "moment" (a viral happening pinned to a spot) whose trigger radius

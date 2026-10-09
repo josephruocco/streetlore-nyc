@@ -214,7 +214,8 @@ def card(lat: float, lon: float, acc: float = 25.0, rotate: int = 0):
         # per-street visit index so a new fact surfaces each walk.
         normalized_street = normalize_fact_street_name(prettify_street_name(street.get("primary_name")))
         if normalized_street:
-            rows = fetch_all(FACTS_BY_STREETNAME_SQL, {"street_name": normalized_street})
+            rows = fetch_all(FACTS_BY_STREETNAME_SQL,
+                             {"street_name": normalized_street, "borough": street.get("borough") or ""})
             facts = [extract_fact_payload(r) for r in rows]
             facts = [f for f in facts if f]
             fact_count = len(facts)
